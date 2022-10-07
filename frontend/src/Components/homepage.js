@@ -75,7 +75,7 @@ function Homepage() {
                     <h2 className="text-center hp-ach-title">Some of the things we are really proud of</h2>
                     <Row className="mx-auto">
                         <Col md={4} sm={6} xs={12}>
-                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 hp-ach-cd">
+                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 hp-ach-cd text-center">
                                 <Card.Body>
                                     <Card.Title className="text-center"><PencilSquare size={96} /></Card.Title>
                                     <br />
@@ -86,7 +86,7 @@ function Homepage() {
                             </Card>
                         </Col>
                         <Col md={4} sm={6} xs={12}>
-                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0">
+                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 text-center">
                                 <Card.Body>
                                     <Card.Title className="text-center"><Building size={96} /></Card.Title>
                                     <br />
@@ -97,7 +97,7 @@ function Homepage() {
                             </Card>
                         </Col>
                         <Col md={4} sm={6} xs={12}>
-                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 hp-ach-cd">
+                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 hp-ach-cd text-center">
                                 <Card.Body>
                                     <Card.Title className="text-center"><PersonHearts size={96} /></Card.Title>
                                     <br />
@@ -143,34 +143,53 @@ function Homepage() {
                     </Row>
                 </Container>
             </Container>
-            <Container>
-                Words of Our Wellwishers
-                <Carousel controls={false} interval={7000}>
-                    <Carousel.Item>
+            <Container className="my-5 pt-2">
+                <h2 className="hp-rew-title text-center">From our Well Wishers....</h2>
+                <Carousel interval={7000} style={{height: '15rem'}} className="my-2">
+                    <Carousel.Item className="px-5">
+                        <Container className="hp-rew-cl">
                         <Row>
-                            <Col md={3}>
-                                <img src={sgphoto} className="w-75 rounded-circle" />
-                                <p>Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
+                            <Col md={3} className="hp-rew-cl-img">
+                                <img src={sgphoto} className="rounded-circle" align="center"/>
+                                <p className="text-center">Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
                             </Col>
                             <Col md={9}>
-                                <p className="test-left fs-3">
+                                <p className="text-left fs-3 hp-rew-cl-txt">
                                     Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships
                                 </p>
                             </Col>
                         </Row>
+                        </Container>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item className="px-5">
+                        <Container className="hp-rew-cl">
                         <Row>
-                            <Col md={3}>
-                                <img src={volunteer} className="w-100 rounded-circle" />
-                                <p>Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
+                            <Col md={3} className="hp-rew-cl-img">
+                                <img src={sgphoto} className="rounded-circle" align="center"/>
+                                <p className="text-center">Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
                             </Col>
                             <Col md={9}>
-                                <p className="test-left fs-3">
+                                <p className="text-left fs-3 hp-rew-cl-txt">
                                     Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships
                                 </p>
                             </Col>
                         </Row>
+                        </Container>
+                    </Carousel.Item>
+                    <Carousel.Item className="px-5">
+                        <Container className="hp-rew-cl">
+                        <Row>
+                            <Col md={3} className="hp-rew-cl-img">
+                                <img src={sgphoto} className="rounded-circle" align="center"/>
+                                <p className="text-center">Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
+                            </Col>
+                            <Col md={9}>
+                                <p className="text-left fs-3 hp-rew-cl-txt">
+                                    Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships
+                                </p>
+                            </Col>
+                        </Row>
+                        </Container>
                     </Carousel.Item>
                 </Carousel>
             </Container>

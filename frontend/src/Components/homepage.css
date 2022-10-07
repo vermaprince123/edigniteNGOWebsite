@@ -14,3 +14,31 @@
     color: white;
     background-color: rgb(144, 58, 253);
 }
+.hp-rew-title{
+    color:  rgb(144, 58, 253);
+}
+
+.hp-rew-cl{
+    box-shadow: 5px -1px 1.5px #968989;
+    padding-top: 10px;
+    border: solid #968989 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: rgb(151, 108, 28);
+}
+
+.hp-rew-cl-img{
+    display: block;
+    align-items: center;
+    border: none;
+}
+
+.hp-rew-cl-img img{
+    margin: auto;
+    border: white solid;
+}
+
+.hp-rew-cl-txt{
+    border: none;
+}
