@@ -1,0 +1,11 @@
+.ft-footer{
+    background-color: rgb(163, 105, 58);
+    height: max-content;
+    color: white;
+}
+
+.ft-col ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0%;
+}

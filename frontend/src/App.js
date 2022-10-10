@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Routes as Switch, Route } from 'react-router-dom';
 //Images
 import logo from './Images/ediLogo.png'
 //Componenets
 import Homepage from './Components/homepage.js';
 import Footer from './Components/footer.js';
+import Places from './Components/places.js';
 
 
 
@@ -31,7 +33,10 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
-      <Homepage />
+      <Switch>
+        <Route path="/"element = { <Homepage />} />
+        <Route path="/places"element = { <Places />} />
+      </Switch>
       <Footer />
     </>
   );
