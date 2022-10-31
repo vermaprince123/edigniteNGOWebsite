@@ -1,12 +1,8 @@
-
-//Libraries
 import React from "react";
 import { Carousel, Button, Container, Row, Col, Card } from 'react-bootstrap';
 import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel, Image } from 'react-bootstrap-icons'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './homepage.css'
-
-//Images
 import donate from '../Images/donate.png';
 import volunteer from '../Images/volunteer.png';
 import collaborate from '../Images/collaborate.png';

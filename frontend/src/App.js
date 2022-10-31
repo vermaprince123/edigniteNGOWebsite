@@ -1,16 +1,19 @@
 import React from 'react';
-import './App.css';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Routes as Switch, Route } from 'react-router-dom';
-//Images
 import logo from './Images/ediLogo.png'
-//Componenets
 import Homepage from './Components/homepage.js';
 import Footer from './Components/footer.js';
 import Places from './Components/places.js';
 
 
-
+/**
+ * @creater "prince verma"
+ * @category component
+ * @param {no parms}
+ * @returns Returns the routes.
+ * @example
+ */
 function App() {
   return (
     <>
@@ -23,7 +26,7 @@ function App() {
               width="17"
               height="30"
               className="d-inline-block align-top"
-            />{' '}
+            />
             Edignite NGO
           </Navbar.Brand>
           <Nav className="me-auto">
