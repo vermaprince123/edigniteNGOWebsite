@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel, Button, Container, Row, Col, Card } from 'react-bootstrap';
-import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel, Image } from 'react-bootstrap-icons'
+import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel} from 'react-bootstrap-icons'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './homepage.css'
 import donate from '../Images/donate.png';
@@ -62,7 +62,7 @@ function Homepage() {
                         <img
                             className="d-inline-block w-75"
                             src={about}
-                            alt="Image of our Volunteers and Kids" />
+                            alt="Our Volunteers and Kids" />
                     </Col>
                 </Row>
             </Container>
@@ -146,7 +146,7 @@ function Homepage() {
                         <Container className="hp-rew-cl">
                         <Row>
                             <Col md={3} className="hp-rew-cl-img">
-                                <img src={sgphoto} className="rounded-circle" align="center"/>
+                                <img src={sgphoto} className="rounded-circle" align="center" alt="MKR Sir"/>
                                 <p className="text-center">Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
                             </Col>
                             <Col md={9}>
@@ -161,7 +161,7 @@ function Homepage() {
                         <Container className="hp-rew-cl">
                         <Row>
                             <Col md={3} className="hp-rew-cl-img">
-                                <img src={sgphoto} className="rounded-circle" align="center"/>
+                                <img src={sgphoto} className="rounded-circle" align="center" alt="Shilpi Ma'am"/>
                                 <p className="text-center">Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
                             </Col>
                             <Col md={9}>
@@ -176,7 +176,7 @@ function Homepage() {
                         <Container className="hp-rew-cl">
                         <Row>
                             <Col md={3} className="hp-rew-cl-img">
-                                <img src={sgphoto} className="rounded-circle" align="center"/>
+                                <img src={sgphoto} className="rounded-circle" align="center" alt="Ajay Makwana Sir"/>
                                 <p className="text-center">Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
                             </Col>
                             <Col md={9}>
