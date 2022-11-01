@@ -19,7 +19,7 @@ function Homepage() {
                         src={donate}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className="hp-csl-cptn">
                         <h3>Taught over 300 kids till date</h3>
                         <Button variant="danger">Click here to help us</Button>
                     </Carousel.Caption>
@@ -31,7 +31,7 @@ function Homepage() {
                         alt="Second slide"
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption className="hp-csl-cptn">
                         <h3>Active over 15 centres in Surat, Haryana, Rajkot, Rajasthan</h3>
                         <Button variant="danger">Click here to volunteer with us.</Button>
                     </Carousel.Caption>
@@ -43,7 +43,7 @@ function Homepage() {
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption className="hp-csl-cptn">
                         <h3>Awareness Sessions, Workshops, Celebrations, round the year</h3>
                         <Button variant="danger" className="font-weight-bold">
                             Click here to collaborate with us.
@@ -58,9 +58,9 @@ function Homepage() {
                         <p className="hp-abt-desc px-2">We are the Students of the NIT Surat and with so much love, dreams, hopes &ambitions we have opened our own Edignite NGO for the upliftment of education of the Underprivileged kids, for those who have not seen the school, who are not able to afford the education and are not getting the proper guidance for any preparation. In this way, we are striving to achieve our honorable Dr. A.P.J. Abdul Kalam Sir's mission of Educated India. Till now, we have Guided/Are guiding 500+ underprivileged and needy kids where some of them got selected for scholarships.<br />
                             We are a registered with Govt. Of India, Surat Charity Commissioner at Sessions Court and at NGO Darpan, NITI Aayog.</p>
                     </Col>
-                    <Col md={4} sm={12}>
+                    <Col md={4} sm={12} className="hp-abt-img-cnt">
                         <img
-                            className="d-inline-block w-75"
+                            className="d-inline-block hp-abt-img"
                             src={about}
                             alt="Our Volunteers and Kids" />
                     </Col>

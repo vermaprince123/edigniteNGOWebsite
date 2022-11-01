@@ -9,7 +9,7 @@ import Places from './Components/places.js';
 
 /**
  * @creater "prince verma"
- * @category webpage od Edignite NGO
+ * @category webpage of Edignite NGO
  * @param {no parms}
  * @returns Entire webpage component
  * @example

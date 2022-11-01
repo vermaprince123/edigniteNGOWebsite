@@ -6,6 +6,11 @@
     border-left: solid rgb(144, 58, 253) 5px;
 }
 
+.hp-abt-img{
+    width: 75%;
+    margin-top: 10px;
+}
+
 .hp-ach{
     color: white;
     background-color: rgb(144, 58, 253);
@@ -13,6 +18,7 @@
 .hp-ach-cd{
     color: white;
     background-color: rgb(144, 58, 253);
+    box-sizing: border-box;
 }
 .hp-rew-title{
     color:  rgb(144, 58, 253);
@@ -42,4 +48,27 @@
 
 .hp-rew-cl-txt{
     border: none;
+}
+
+@media (max-width: 590px) {
+    .hp-csl-cptn Button{
+        padding: 2px;
+        font-size: xx-small;
+    }
+    .hp-csl-cptn h3{
+        font-size: x-small;
+    }
+
+    .hp-abt-img-cnt{
+        width: 100% !important;
+        align-items: center;
+        padding: auto;
+        box-sizing: border-box;
+        height: auto;
+    }
+
+    .hp-abt-img{
+        width: 100% !important;
+        height: auto;
+    }
 }
