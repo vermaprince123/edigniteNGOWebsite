@@ -17,7 +17,7 @@
 }
 .hp-ach-cd{
     color: white;
-    background-color: rgb(144, 58, 253);
+    background-color: rgb(144, 58, 253) !important;
     box-sizing: border-box;
 }
 .hp-rew-title{
@@ -43,7 +43,10 @@
 
 .hp-rew-cl-img img{
     margin: auto;
+    width: 100%;
+    object-fit: fill;
     border: white solid;
+    box-sizing: border-box;
 }
 
 .hp-rew-cl-txt{

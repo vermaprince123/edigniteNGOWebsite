@@ -71,7 +71,7 @@ function Homepage() {
                     <h2 className="text-center hp-ach-title">Some of the things we are really proud of</h2>
                     <Row className="mx-auto">
                         <Col md={4} sm={6} xs={12}>
-                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 hp-ach-cd text-center">
+                            <Card className="border-0 hp-ach-cd text-center">
                                 <Card.Body>
                                     <Card.Title className="text-center"><PencilSquare size={96} /></Card.Title>
                                     <br />
@@ -82,7 +82,7 @@ function Homepage() {
                             </Card>
                         </Col>
                         <Col md={4} sm={6} xs={12}>
-                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 text-center">
+                            <Card className="border-0 hp-ach-cd text-center">
                                 <Card.Body>
                                     <Card.Title className="text-center"><Building size={96} /></Card.Title>
                                     <br />
@@ -93,7 +93,7 @@ function Homepage() {
                             </Card>
                         </Col>
                         <Col md={4} sm={6} xs={12}>
-                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 hp-ach-cd text-center">
+                            <Card className="border-0 hp-ach-cd text-center">
                                 <Card.Body>
                                     <Card.Title className="text-center"><PersonHearts size={96} /></Card.Title>
                                     <br />
@@ -104,7 +104,7 @@ function Homepage() {
                             </Card>
                         </Col>
                         <Col md={4} sm={6} xs={12}>
-                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 hp-ach-cd">
+                            <Card className="border-0 hp-ach-cd text-center">
                                 <Card.Body>
                                     <Card.Title className="text-center"><Box2Heart size={96} /></Card.Title>
                                     <br />
@@ -115,7 +115,7 @@ function Homepage() {
                             </Card>
                         </Col>
                         <Col md={4} sm={6} xs={12}>
-                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 hp-ach-cd">
+                            <Card className="border-0 hp-ach-cd text-center">
                                 <Card.Body>
                                     <Card.Title className="text-center"><CardChecklist size={96} /></Card.Title>
                                     <br />
@@ -126,7 +126,7 @@ function Homepage() {
                             </Card>
                         </Col>
                         <Col md={4} sm={6} xs={12}>
-                            <Card style={{ width: '18rem', backgroundColor: 'rgb(144, 58, 253)', color: 'white' }} className="border-0 hp-ach-cd">
+                            <Card className="border-0 hp-ach-cd text-center">
                                 <Card.Body>
                                     <Card.Title className="text-center"><FileEarmarkEasel size={96} /></Card.Title>
                                     <br />
