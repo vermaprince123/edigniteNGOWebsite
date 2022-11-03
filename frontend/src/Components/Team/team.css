@@ -1,9 +1,14 @@
 .tm-vol-img{
-    border: solid black;
+    width: 459px;
+    height: 565px;
+    box-sizing: border-box;
 }
 .tm-vol-img img{
     overflow: fill;
+    border: solid rgb(144, 58, 253) 7px;
+    box-sizing: border-box;
     width: 100%;
+    height: 100%;
 }
 
 .tm-vol-name{
@@ -21,6 +26,7 @@
 .tm-vol-det{
     width: 100%;
     height: 100%;
-    border: rgb(144, 58, 253) solid;
-    background-color: azure;
+    border: solid rgb(144, 58, 253) 7px;
+    box-sizing: border-box;
+    background-color: white;
 }

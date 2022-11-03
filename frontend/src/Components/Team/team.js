@@ -21,16 +21,18 @@ function Team() {
         <>
         <Row>
             <Col md={5} className="tm-vol-img">
-                {hideMemberImage && <img src={volPrince} alt="Prince Verma"
+                {/* {hideMemberImage && <img src={volPrince} alt="Prince Verma"
                      onMouseOver={handleMemberImg}
                      id="img-1"/>}
-                <div className="tm-vol-name">
-                    Prince Verma | Founder
-                </div>
                 {hideMemberDetails && <div className="tm-vol-det" id="det-1"  onMouseOut={handleMemberDetails}>
                     Prince Verma<br />
                     Open Source Contributer, Author of 3 Books, Software Engineer at OneAssist Consumer Solutions
-                </div>}
+                </div>} */}
+                <div className="tm-vol-det" id="det-1"  onMouseOut={handleMemberDetails}>
+                    <div className="tm-vol-nd">Prince Verma | Founder</div>
+                    <div className="tm-vol-occ">Software Engineer, OneAssist Consumer Solutions</div>
+                    <div className="tm-vol-ach">Open Source Contributer, Author of three books</div>
+                </div>
             </Col>
             </Row>
         </>
