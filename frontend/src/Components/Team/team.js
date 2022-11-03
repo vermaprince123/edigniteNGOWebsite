@@ -1,5 +1,5 @@
 import React from "react";
-import volPrince from '../Images/volPrince.png'
+import volPrince from './Images/volPrince.png'
 
 
 function Team(){

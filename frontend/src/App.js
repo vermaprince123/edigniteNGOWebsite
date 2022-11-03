@@ -6,10 +6,10 @@ import {
   Link
 } from 'react-router-dom';
 import logo from './Images/ediLogo.png'
-import Homepage from './Components/homepage.js';
-import Footer from './Components/footer.js';
-import Places from './Components/places.js';
-import Team from './Components/team.js';
+import Homepage from './Components/Homepage/homepage.js';
+import Footer from './Components/Footer/footer.js';
+import Places from './Components/Places/places.js';
+import Team from './Components/Team/team.js';
 import  './App.css';
 
 
@@ -25,7 +25,7 @@ function App() {
     <>
       <Navbar bg="warning" variant="dark" expand="lg">
         <Container>
-        <Link className="ed_removeAnchorTagLine" to='/'>
+        <Link className="ed_removeAnchorTagLine navbar-brand" to='/'>
             <img
               alt="Edignite Logo"
               src={logo}
@@ -38,10 +38,10 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link className="ed_removeAnchorTagLine" to='/home'>Home</Link>
-            <Link className="ed_removeAnchorTagLine" to='/team'>Team Edignite</Link>
-            <Link className="ed_removeAnchorTagLine" to='/link'>Our Activities</Link>
-            <Link className="ed_removeAnchorTagLine" to='/places'>Places We Go</Link>
+            <Link className="ed_removeAnchorTagLine nav-link" to='/home'>Home</Link>
+            <Link className="ed_removeAnchorTagLine nav-link" to='/team'>Team Edignite</Link>
+            <Link className="ed_removeAnchorTagLine nav-link" to='/link'>Our Activities</Link>
+            <Link className="ed_removeAnchorTagLine nav-link" to='/places'>Places We Go</Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
@@ -51,8 +51,8 @@ function App() {
         <Route exact path="/" element={<Homepage />} />
         <Route  exact path="/places" element={<Places />} />
         <Route exact path="/team" element={<Team />} />
-       <Route exact path="/home">Home</Route>
-       <Route exact path="/link">Link</Route>
+       <Route exact path="/home" element={<div>Home</div>}/>
+       <Route exact path="/link" element={<div>Link</div>}/>
 
   </Routes>
 

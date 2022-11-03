@@ -3,11 +3,11 @@ import { Carousel, Button, Container, Row, Col, Card } from 'react-bootstrap';
 import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel} from 'react-bootstrap-icons'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './homepage.css'
-import donate from '../Images/donate.png';
-import volunteer from '../Images/volunteer.png';
-import collaborate from '../Images/collaborate.png';
-import about from '../Images/hpabout.png';
-import sgphoto from '../Images/sgphoto.jfif';
+import donate from './Images/donate.png';
+import volunteer from './Images/volunteer.png';
+import collaborate from './Images/collaborate.png';
+import about from './Images/hpabout.png';
+import sgphoto from './Images/sgphoto.jfif';
 
 function Homepage() {
     return (
