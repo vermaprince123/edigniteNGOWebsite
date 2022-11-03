@@ -5,6 +5,7 @@ import logo from './Images/ediLogo.png'
 import Homepage from './Components/homepage.js';
 import Footer from './Components/footer.js';
 import Places from './Components/places.js';
+import Team from './Components/team.js';
 
 
 /**
@@ -33,8 +34,9 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <Nav.Link href="#place">Place</Nav.Link>
+            <Nav.Link href='/team'>Team Edignite</Nav.Link>
+            <Nav.Link href="#link">Our Activities</Nav.Link>
+            <Nav.Link href='/places'>Places We Go</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
@@ -42,6 +44,7 @@ function App() {
       <Switch>
         <Route path="/" element={<Homepage />} />
         <Route path="/places" element={<Places />} />
+        <Route path="/team" element={<Team />} />
       </Switch>
       <Footer />
     </>

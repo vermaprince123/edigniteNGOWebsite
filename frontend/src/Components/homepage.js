@@ -7,7 +7,7 @@ import donate from '../Images/donate.png';
 import volunteer from '../Images/volunteer.png';
 import collaborate from '../Images/collaborate.png';
 import about from '../Images/hpabout.png';
-import sgphoto from '../Images/sgphoto.jpg';
+import sgphoto from '../Images/sgphoto.jfif';
 
 function Homepage() {
     return (
@@ -147,7 +147,7 @@ function Homepage() {
                         <Row>
                             <Col md={3} className="hp-rew-cl-img">
                                 <img src={sgphoto} className="rounded-circle" align="center" alt="MKR Sir"/>
-                                <p className="text-center">Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
+                                <p className="text-center">XYZ, <br />ECE Dept, SVNIT</p>
                             </Col>
                             <Col md={9}>
                                 <p className="text-left fs-3 hp-rew-cl-txt">
@@ -162,7 +162,7 @@ function Homepage() {
                         <Row>
                             <Col md={3} className="hp-rew-cl-img">
                                 <img src={sgphoto} className="rounded-circle" align="center" alt="Shilpi Ma'am"/>
-                                <p className="text-center">Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
+                                <p className="text-center">XYZ, <br />ECE Dept, SVNIT</p>
                             </Col>
                             <Col md={9}>
                                 <p className="text-left fs-3 hp-rew-cl-txt">
@@ -177,7 +177,7 @@ function Homepage() {
                         <Row>
                             <Col md={3} className="hp-rew-cl-img">
                                 <img src={sgphoto} className="rounded-circle" align="center" alt="Ajay Makwana Sir"/>
-                                <p className="text-center">Prof. Shilpi Gupta, <br />ECE Dept, SVNIT</p>
+                                <p className="text-center">XYZ, <br />ECE Dept, SVNIT</p>
                             </Col>
                             <Col md={9}>
                                 <p className="text-left fs-3 hp-rew-cl-txt">
