@@ -1,11 +1,16 @@
 import React from 'react';
 import { Navbar, Container, Nav} from 'react-bootstrap';
-import { Routes as Switch, Route } from 'react-router-dom';
+import {
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
 import logo from './Images/ediLogo.png'
 import Homepage from './Components/homepage.js';
 import Footer from './Components/footer.js';
 import Places from './Components/places.js';
 import Team from './Components/team.js';
+import  './App.css';
 
 
 /**
@@ -20,7 +25,7 @@ function App() {
     <>
       <Navbar bg="warning" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+        <Link className="ed_removeAnchorTagLine" to='/'>
             <img
               alt="Edignite Logo"
               src={logo}
@@ -29,23 +34,28 @@ function App() {
               className="d-inline-block align-top"
             />
             Edignite NGO
-          </Navbar.Brand>
+            </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href='/team'>Team Edignite</Nav.Link>
-            <Nav.Link href="#link">Our Activities</Nav.Link>
-            <Nav.Link href='/places'>Places We Go</Nav.Link>
+            <Link className="ed_removeAnchorTagLine" to='/home'>Home</Link>
+            <Link className="ed_removeAnchorTagLine" to='/team'>Team Edignite</Link>
+            <Link className="ed_removeAnchorTagLine" to='/link'>Our Activities</Link>
+            <Link className="ed_removeAnchorTagLine" to='/places'>Places We Go</Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Switch>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/places" element={<Places />} />
-        <Route path="/team" element={<Team />} />
-      </Switch>
+
+  <Routes>
+        <Route exact path="/" element={<Homepage />} />
+        <Route  exact path="/places" element={<Places />} />
+        <Route exact path="/team" element={<Team />} />
+       <Route exact path="/home">Home</Route>
+       <Route exact path="/link">Link</Route>
+
+  </Routes>
+
       <Footer />
     </>
   );
