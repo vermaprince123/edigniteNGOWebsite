@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel, Button, Container, Row, Col, Card } from 'react-bootstrap';
 import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel} from 'react-bootstrap-icons'
+import { Link } from "react-router-dom";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './homepage.css'
 import donate from './Images/donate.png';
@@ -21,7 +22,7 @@ function Homepage() {
                     />
                     <Carousel.Caption className="hp-csl-cptn">
                         <h3>Taught over 300 kids till date</h3>
-                        <Button variant="danger">Click here to help us</Button>
+                        <Link className="btn btn-danger" to="/contact/help">Click here to help us</Link>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -33,7 +34,7 @@ function Homepage() {
 
                     <Carousel.Caption className="hp-csl-cptn">
                         <h3>Active over 15 centres in Surat, Haryana, Rajkot, Rajasthan</h3>
-                        <Button variant="danger">Click here to volunteer with us.</Button>
+                        <Link className="btn btn-danger" to="/contact/volunteer">Click here to volunteer with us.</Link>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -45,9 +46,7 @@ function Homepage() {
 
                     <Carousel.Caption className="hp-csl-cptn">
                         <h3>Awareness Sessions, Workshops, Celebrations, round the year</h3>
-                        <Button variant="danger" className="font-weight-bold">
-                            Click here to collaborate with us.
-                        </Button>
+                        <Link className="btn btn-danger" to="/contact">Click here to collaborate with us</Link>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

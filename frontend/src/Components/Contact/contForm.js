@@ -1,29 +1,43 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import './contForm.css';
+import contFormImg from './Images/contFormImg.png'
 
-function contForm() {
+function ContForm() {
     return (
         <>
             <Container>
-                <Row>
-                    <Col>
+                <Row className="cnt-fm-cont mx-5 my-5 p-2">
+                    <Col md={6} sm={12}>
                         <Form>
+                            <Form.Group className="mb-3" controlId="formBasicName">
+                                <Form.Label>Your Name</Form.Label>
+                                <Form.Control type="name" placeholder="Your Name Here" />
+                            </Form.Group>
+
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
-                                <Form.Text className="text-muted">
-                                    We'll never share your email with anyone else.
-                                </Form.Text>
+                                <Form.Label>Email Address</Form.Label>
+                                <Form.Control type="email" placeholder="Email Address" />
+                            </Form.Group>
+
+                            <Form.Group className="mb-3" controlId="formBasicContact">
+                                <Form.Label>Contact No.</Form.Label>
+                                <Form.Control type="number" placeholder="Contact Number" />
                             </Form.Group>
 
                             <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Label>Password</Form.Label>
-                                <Form.Control type="password" placeholder="Password" />
+                                <Form.Label>Message</Form.Label>
+                                <Form.Control 
+                                as="textarea" rows={3} placeholder="Please type in any message/ collaboration detials that you want to share"/>
                             </Form.Group>
-                            <Button variant="primary" type="submit">
+                            <Button variant="warning" type="submit" className="text-light">
                                 Submit
                             </Button>
                         </Form>
+                    </Col>
+                    <Col md={6} sm={0}>
+                        <img className="cnt-fm-img" 
+                        src = {contFormImg}/>
                     </Col>
                 </Row>
             </Container>
@@ -31,4 +45,4 @@ function contForm() {
     );
 }
 
-export default contForm;
+export default ContForm;
