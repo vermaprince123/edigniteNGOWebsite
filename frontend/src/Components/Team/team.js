@@ -18,8 +18,8 @@ function Team() {
                                 <img src={memberDetail.srcImage} alt={memberDetail.alt}
                                     id="img-1" />
                                 <div className="tm-vol-det text-center">
-                                    <div className="tm-vol-nd"> {memberDetail.name}, {memberDetail.designation} </div>
-                                    <div className="tm-vol-occ">{memberDetail.occupation}</div>
+                                    <span className="tm-vol-nd"> {memberDetail.name}, {memberDetail.designation} </span><br />
+                                    <span className="tm-vol-occ">{memberDetail.occupation}</span>
                                     <Row className="tm-vol-sm">
                                         <Col className="tm-vol-sm-lnk" sm={4}>
                                             <Instagram size={20} />

@@ -26,6 +26,7 @@
 .tm-vol-det{
     width: 100%;
     height: max-content;
+    line-height: 0.9;
     /* border: solid rgb(144, 58, 253) 7px; */
     box-sizing: border-box;
     background-color: white;
@@ -43,6 +44,7 @@
 
 .tm-vol-sm{
     margin: auto !important;
+    margin-top: 0.7rem !important;
     color: rgb(76, 76, 76);
     width: 40%;
     align-content: center;

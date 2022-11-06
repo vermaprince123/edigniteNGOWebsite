@@ -1,35 +1,30 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import { Routes, Route, Link} from 'react-router-dom';
-import ContForm from './contForm'
-import HelpForm from './helpForm'
-import VolForm from './volForm'
+import { Instagram, Facebook, Linkedin, Youtube } from 'react-bootstrap-icons'
+
 
 function Contact(){
     return(
         <>
-        <h2 className="text-center text-danger">Thank you for your interest in enlightening the lives of many !!!</h2>
+        <h2 className="text-center text-danger">Thank you for your interest in enlightening the lives of many !!<br />
+        Below are the contact details of our organization...
+        </h2>
         <Container>
-        <Row>
-            <Col md={4}>
-                <Link to="/contact/help" className="btn btn-danger"> Click Here to Help Us</Link>
-            </Col>
-            <Col md={4}>
-            <Link to="/contact/volunteer" className="btn btn-danger"> Click Here to Volunteer With Us</Link>
-            </Col>
-            <Col md={4}>
-            <Link to="/contact" className="btn btn-danger"> Click Here to Contact/ Collaborate</Link>
-            </Col>
-        </Row>
-        </Container>
+            <Row>
+                <Col md={6}>
+                    <h4>Office Address</h4>
+                    B-66 Ashish Row House, Variyav Road, Surat <br/>
+                    <b>Contact Number</b>: -+91 7096277820   <br/>     
+                    <b>Email</b>:- edignitengo@gmail.com <br/>
 
-        <Routes>
-        <Route path="/" element={<ContForm />}/>
-            <Route path="help/" element={<HelpForm />}/>
-            <Route path="volunteer/" element = {<VolForm />}/>
-        </Routes>
-        
-        
+                    <Instagram size={15} /> - ed_ignite <br/>
+                    <Facebook size={15} /> - Edignite NGO <br/>
+                    <Linkedin size={15} /> - Edignite NGO  <br/>   
+                    <Youtube size={15} /> - Edignite NGO <br/>   
+
+                </Col>
+            </Row>
+        </Container>
         
         </>
     )
