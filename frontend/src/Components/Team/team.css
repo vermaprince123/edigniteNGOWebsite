@@ -1,14 +1,14 @@
-.tm-vol-img{
-    width: 459px;
-    height: 565px;
+.tm-vol-mem{
+    width: 114.75px;
+    height: max-content;
     box-sizing: border-box;
 }
-.tm-vol-img img{
-    overflow: fill;
-    border: solid rgb(144, 58, 253) 7px;
+.tm-vol-mem img{
+    overflow: scroll;
+    /* border: solid rgb(144, 58, 253) 7px; */
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
+    height: max-content;
 }
 
 .tm-vol-name{
@@ -25,8 +25,31 @@
 
 .tm-vol-det{
     width: 100%;
-    height: 100%;
-    border: solid rgb(144, 58, 253) 7px;
+    height: max-content;
+    /* border: solid rgb(144, 58, 253) 7px; */
     box-sizing: border-box;
     background-color: white;
 }
+
+.tm-vol-nd{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.tm-vol-occ{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.tm-vol-sm{
+    margin: auto !important;
+    color: rgb(76, 76, 76);
+    width: 40%;
+    align-content: center;
+}
+
+.tm-vol-sm-lnk:hover{
+    color: rgb(144, 58, 253) !important;
+}
+
+
