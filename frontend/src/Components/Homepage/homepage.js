@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Button, Container, Row, Col, Card } from 'react-bootstrap';
+import { Carousel, Container, Row, Col, Card } from 'react-bootstrap';
 import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel} from 'react-bootstrap-icons'
 import { Link } from "react-router-dom";
 import 'bootstrap-icons/font/bootstrap-icons.css';

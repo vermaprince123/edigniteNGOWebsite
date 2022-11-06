@@ -3,7 +3,6 @@ import { Row, Col, Container } from 'react-bootstrap';
 import { Instagram, Facebook, Linkedin } from 'react-bootstrap-icons'
 import './team.css';
 import membersDetails from './memberDetails';
-import memberDetails from "./memberDetails";
 
 
 function Team() {
@@ -14,7 +13,7 @@ function Team() {
                 <Row>
                     {membersDetailsCloneData.map((memberDetail) => {
                         return (
-                            <Col md={4} key={memberDetail.id} className="tm-vol-mem">
+                            <Col md={4} key={memberDetail.id} className="tm-vol-mem my-2">
                                 <img src={memberDetail.srcImage} alt={memberDetail.alt}
                                     id="img-1" />
                                 <div className="tm-vol-det text-center">
