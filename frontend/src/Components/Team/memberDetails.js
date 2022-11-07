@@ -8,17 +8,35 @@ const membersDetails = [
         "alt":"prince verma",
         "designation":"Founder",
         "occupation":"Software Engineer, OneAssist Consumer Solutions",
-        "achivements":"Open Source Contributer, Author of three books"
+        "achivements":"Open Source Contributer, Author of three books",
+        "instaId": "https://www.instagram.com/prince_verma_edignite/",
+        "fbId": "https://www.facebook.com/prince.verma.1004837",
+        "lnkdinId": "https://www.linkedin.com/in/prince-verma-edignite"
     },
     {
         "id":2,
-        "name":"edignite",
-        "srcImage":dummyImage,
-        "alt":"edignite image",
-        "designation":"dummy data edignite",
-        "occupation":"dummy data how are u",
-        "achivements":"dummy data i am fine"
-    }
+        "name":"Prince Verma",
+        "srcImage":princeImage,
+        "alt":"prince verma",
+        "designation":"Founder",
+        "occupation":"Software Engineer, OneAssist Consumer Solutions",
+        "achivements":"Open Source Contributer, Author of three books",
+        "instaId": "https://www.instagram.com/prince_verma_edignite/",
+        "fbId": "https://www.facebook.com/prince.verma.1004837",
+        "lnkdinId": "https://www.linkedin.com/in/prince-verma-edignite"
+    },
+    {
+        "id": 3,
+        "name":"Prince Verma",
+        "srcImage":princeImage,
+        "alt":"prince verma",
+        "designation":"Founder",
+        "occupation":"Software Engineer, OneAssist Consumer Solutions",
+        "achivements":"Open Source Contributer, Author of three books",
+        "instaId": "https://www.instagram.com/prince_verma_edignite/",
+        "fbId": "https://www.facebook.com/prince.verma.1004837",
+        "lnkdinId": "https://www.linkedin.com/in/prince-verma-edignite"
+    },
 ];
 
 export  default  membersDetails;

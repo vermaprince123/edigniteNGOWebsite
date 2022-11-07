@@ -9,6 +9,11 @@ function Team() {
     const [membersDetailsCloneData, setmembersDetailsCloneData] = useState(membersDetails);
     return (
         <>
+        <h5 className="text-center text-primary mt-3">
+            The organization, 'Edignite Educational And Charitable Trust' was Founded by Prince Verma Sir in the year 2019. Since then it has been getting many enthusiastic volunteers who are always ready to enlighten a child's life....<br/>
+            Here's the Core Team of the organisation.
+        </h5>
+        <hr />
             <Container>
                 <Row>
                     {membersDetailsCloneData.map((memberDetail) => {
@@ -21,13 +26,13 @@ function Team() {
                                     <span className="tm-vol-occ">{memberDetail.occupation}</span>
                                     <Row className="tm-vol-sm">
                                         <Col className="tm-vol-sm-lnk" sm={4}>
-                                            <Instagram size={20} />
+                                            <a className="tm-sm-lnk" href={memberDetail.instaId}><Instagram size={20} /></a>
                                         </Col>
                                         <Col className="tm-vol-sm-lnk" sm={4}>
-                                            <Facebook size={20} />
+                                            <a className="tm-sm-lnk" href={memberDetail.fbId}><Facebook size={20} /></a>
                                         </Col>
                                         <Col className="tm-vol-sm-lnk" sm={4}>
-                                            <Linkedin size={20} />
+                                            <a className="tm-sm-lnk" href={memberDetail.lnkdinId}><Linkedin size={20} /></a>
                                         </Col>
                                     </Row>
                                 </div>

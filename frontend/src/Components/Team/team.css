@@ -50,8 +50,21 @@
     align-content: center;
 }
 
-.tm-vol-sm-lnk:hover{
+.tm-sm-lnk{
+    text-decoration: none;
+    color: rgb(76, 76, 76);
+}
+
+.tm-sm-lnk:hover{
     color: rgb(144, 58, 253) !important;
 }
+
+
+@media (max-width: 575px) {
+    .tm-vol-sm{
+        width: 100%;
+    }
+}
+
 
 
