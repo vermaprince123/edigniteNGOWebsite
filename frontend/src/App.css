@@ -2,3 +2,19 @@
     text-decoration: none;
 }
 
+.app-sm{
+    width: max-content;
+    height: max-content;
+    color: white;
+    position: fixed;
+    top: 35%;
+    padding: 5px;
+}
+
+.app-sm a{
+    text-decoration: none;
+    color: white;
+}
+.app-sm a:hover{
+    color:rgb(144, 58, 253);
+}
