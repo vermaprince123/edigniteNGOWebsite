@@ -24,7 +24,7 @@ function Activities() {
                                     {act.subAct.map(
                                         (sAct) =>{
                                             return(
-                                                <Col md={3} sm={4} xs={6} className="my-3" key = {sAct.id}>
+                                                <Col lg={3} md={4} sm={6} xs={12} className="my-3" key = {sAct.id}>
                                         <img src={sAct.srcImg} className="act-sa-img" alt={sAct.name} />
                                         <span className="act-sa-desc">{sAct.name}</span>
                                     </Col>
