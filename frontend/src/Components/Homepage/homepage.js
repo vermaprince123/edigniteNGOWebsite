@@ -22,7 +22,7 @@ function Homepage() {
                     />
                     <Carousel.Caption className="hp-csl-cptn">
                         <h3>Taught over 300 kids till date</h3>
-                        <Link className="btn btn-danger" to="/contact/help">Click here to help us</Link>
+                        <a className="btn btn-danger" href="https://surveyheart.com/form/631afede7f5e8e151e450799">Click here to help us</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -34,7 +34,7 @@ function Homepage() {
 
                     <Carousel.Caption className="hp-csl-cptn">
                         <h3>Active over 15 centres in Surat, Haryana, Rajkot, Rajasthan</h3>
-                        <Link className="btn btn-danger" to="/contact/volunteer">Click here to volunteer with us.</Link>
+                        <a className="btn btn-danger" href="https://bit.ly/Edignite_Joining_Form">Click here to volunteer with us.</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -46,7 +46,7 @@ function Homepage() {
 
                     <Carousel.Caption className="hp-csl-cptn">
                         <h3>Awareness Sessions, Workshops, Celebrations, round the year</h3>
-                        <Link className="btn btn-danger" to="/contact">Click here to collaborate with us</Link>
+                        <a className="btn btn-danger" href="https://surveyheart.com/form/6368cd00e5fab37a9b896ee3">Click here to collaborate with us</a>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

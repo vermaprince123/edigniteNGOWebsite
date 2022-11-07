@@ -25,13 +25,13 @@ function Team() {
                                     <span className="tm-vol-nd"> {memberDetail.name}, {memberDetail.designation} </span><br />
                                     <span className="tm-vol-occ">{memberDetail.occupation}</span>
                                     <Row className="tm-vol-sm">
-                                        <Col className="tm-vol-sm-lnk" sm={4}>
+                                        <Col className="tm-vol-sm-lnk" xs={4}>
                                             <a className="tm-sm-lnk" href={memberDetail.instaId}><Instagram size={20} /></a>
                                         </Col>
-                                        <Col className="tm-vol-sm-lnk" sm={4}>
+                                        <Col className="tm-vol-sm-lnk" xs={4}>
                                             <a className="tm-sm-lnk" href={memberDetail.fbId}><Facebook size={20} /></a>
                                         </Col>
-                                        <Col className="tm-vol-sm-lnk" sm={4}>
+                                        <Col className="tm-vol-sm-lnk" xs={4}>
                                             <a className="tm-sm-lnk" href={memberDetail.lnkdinId}><Linkedin size={20} /></a>
                                         </Col>
                                     </Row>
