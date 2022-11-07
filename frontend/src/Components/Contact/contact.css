@@ -1,0 +1,7 @@
+.cnt-dt{
+    width: max-content;
+    height: max-content;
+    border: solid gray 0.5px;
+    border-radius: 5px;
+    margin: auto;
+}

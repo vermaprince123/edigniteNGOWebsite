@@ -16,7 +16,7 @@ function Team() {
                             <Col md={4} key={memberDetail.id} className="tm-vol-mem my-2">
                                 <img src={memberDetail.srcImage} alt={memberDetail.alt}
                                     id="img-1" />
-                                <div className="tm-vol-det text-center">
+                                <div className="tm-vol-det text-center mt-3">
                                     <span className="tm-vol-nd"> {memberDetail.name}, {memberDetail.designation} </span><br />
                                     <span className="tm-vol-occ">{memberDetail.occupation}</span>
                                     <Row className="tm-vol-sm">

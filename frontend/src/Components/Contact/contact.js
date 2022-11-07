@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import { Instagram, Facebook, Linkedin, Youtube } from 'react-bootstrap-icons'
+import './contact.css';
 
 
 function Contact(){
@@ -10,8 +11,8 @@ function Contact(){
         Below are the contact details of our organization...
         </h2>
         <Container>
-            <Row>
-                <Col md={6}>
+            <div className="text-center">
+                <div className="cnt-dt my-5 p-3">
                     <h4>Office Address</h4>
                     B-66 Ashish Row House, Variyav Road, Surat <br/>
                     <b>Contact Number</b>: -+91 7096277820   <br/>     
@@ -22,8 +23,8 @@ function Contact(){
                     <Linkedin size={15} /> - Edignite NGO  <br/>   
                     <Youtube size={15} /> - Edignite NGO <br/>   
 
-                </Col>
-            </Row>
+                </div>
+            </div>
         </Container>
         
         </>

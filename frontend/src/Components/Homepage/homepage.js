@@ -138,9 +138,9 @@ function Homepage() {
                     </Row>
                 </Container>
             </Container>
-            <Container className="my-5 pt-2">
+            <Container className="my-5 pt-2 hp-rew">
                 <h2 className="hp-rew-title text-center">From our Well Wishers....</h2>
-                <Carousel interval={7000} style={{height: '15rem'}} className="my-2">
+                <Carousel interval={7000} style={{height: '15rem'}} className="my-2 hp-rew-2">
                     <Carousel.Item className="px-5">
                         <Container className="hp-rew-cl">
                         <Row>
