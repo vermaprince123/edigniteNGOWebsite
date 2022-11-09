@@ -1,5 +1,5 @@
 {
-  "name": "src",
+  "name": "EdigniteNGO",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +15,18 @@
   "scripts": {
     "start": "webpack serve",
     "build": "NODE_ENV='production' webpack"
+  },
+  "author": {
+    "name": "Prince Verma",
+    "email": "princevermasrcc@gmail.com"
+  },
+  "keywords": [
+    "edignitengo", "edignite ngo", "edignite", "edigniteNGO", "ngo edignite"
+  ],
+  "description": "We are the Students of the NIT Surat and with so much love, dreams, hopes &ambitions we have opened our own Edignite NGO for the upliftment of education of the Underprivileged kids, for those who have not seen the school, who are not able to afford the education and are not getting the proper guidance for any preparation. In this way, we are striving to achieve our honorable Dr. A.P.J. Abdul Kalam Sir's mission of Educated India. Till now, we have Guided/Are guiding 500+ underprivileged and needy kids where some of them got selected for scholarships.<br />\n                            We are a registered with Govt. Of India, Surat Charity Commissioner at Sessions Court and at NGO Darpan, NITI Aayog.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vermaprince123/edigniteNGOWebsite.git"
   },
   "eslintConfig": {
     "extends": "react-app"
