@@ -14,11 +14,11 @@ module.exports={
   },
   devtool:'inline-source-map',
   devServer:{
-    contentBase:path.resolve(__dirname, 'build'),
+    // contentBase:path.resolve(__dirname, 'build'),
     port:5000,
     open:true,
     hot:true,
-    watchContentBase:true
+    // watchContentBase:true
   },
   module:{
     rules:[
@@ -26,7 +26,7 @@ module.exports={
         test:/\.css$/, use:['style-loader', 'css-loader']
       },
       {
-        test: /\.(svg|png|ico|webp|jpg|gif|jpeg)$/, type:'assest/resource'
+        test: /\.(svg|png|ico|webp|jpg|gif|jpeg|JPG|jfif)$/, type:'asset/resource'
       },
       {
         test: /\.js$/,
@@ -35,7 +35,8 @@ module.exports={
           loader:'babel-loader',
           options:{
             presets:[
-                '@babel/preset-env'
+                '@babel/preset-env',
+                '@babel/preset-react'
             ]
           }
         }
