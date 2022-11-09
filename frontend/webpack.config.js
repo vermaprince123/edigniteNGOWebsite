@@ -1,3 +1,5 @@
+const TerserPlugin = require('terser-webpack-plugin');
+const hash = new Date().getTime();
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -8,17 +10,14 @@ module.exports={
   },
   output:{
     path:path.resolve(__dirname, 'build'),
-    filename:'[name].[contenthash].js',
-    assetModuleFilename:'[name][ext]',
+    filename: `static/js/[name].${hash}.js`,
     clean:true
   },
   devtool:'inline-source-map',
   devServer:{
-    // contentBase:path.resolve(__dirname, 'build'),
     port:5000,
     open:true,
-    hot:true,
-    // watchContentBase:true
+    hot:true
   },
   module:{
     rules:[
@@ -26,7 +25,15 @@ module.exports={
         test:/\.css$/, use:['style-loader', 'css-loader']
       },
       {
-        test: /\.(svg|png|ico|webp|jpg|gif|jpeg|JPG|jfif)$/, type:'asset/resource'
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        type: 'asset/inline',
+    },
+      {
+        test: /\.(svg|png|ico|webp|jpg|gif|jpeg|JPG|jfif|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'static/media/[name].[ext]',
+        },
       },
       {
         test: /\.js$/,
@@ -43,6 +50,16 @@ module.exports={
       }
     ]
   },
+
+  optimization: {
+    minimize: false,
+    minimizer: [
+      new TerserPlugin({
+        extractComments: true,
+      }),
+    ],
+  },
+
   plugins:[
       new HtmlWebpackPlugin({
         title:'Edignite NGO',
