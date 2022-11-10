@@ -140,16 +140,16 @@ function Homepage() {
             </Container>
             <Container className="my-5 pt-2 hp-rew">
                 <h2 className="hp-rew-title text-center">From our Well Wishers....</h2>
-                <Carousel interval={7000} style={{height: '15rem'}} className="my-2 hp-rew-2">
+                <Carousel interval={7000}  className="my-2 hp-rew-2">
                     <Carousel.Item className="px-5">
                         <Container className="hp-rew-cl">
                         <Row>
-                            <Col md={3} className="hp-rew-cl-img">
+                            <Col md={3} sm={12} className="hp-rew-cl-img">
                                 <img src={sgphoto} className="rounded-circle" align="center" alt="MKR Sir"/>
-                                <p className="text-center">XYZ, <br />ECE Dept, SVNIT</p>
+                                <p className="text-center hp-rew-cl-txt">XYZ, <br />ECE Dept, SVNIT</p>
                             </Col>
-                            <Col md={9}>
-                                <p className="text-left fs-3 hp-rew-cl-txt">
+                            <Col md={9} sm={12}>
+                                <p className="text-left  hp-rew-cl-txt">
                                     Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships
                                 </p>
                             </Col>
@@ -159,12 +159,12 @@ function Homepage() {
                     <Carousel.Item className="px-5">
                         <Container className="hp-rew-cl">
                         <Row>
-                            <Col md={3} className="hp-rew-cl-img">
+                            <Col md={3} sm={12} className="hp-rew-cl-img">
                                 <img src={sgphoto} className="rounded-circle" align="center" alt="Shilpi Ma'am"/>
-                                <p className="text-center">XYZ, <br />ECE Dept, SVNIT</p>
+                                <p className="text-center hp-rew-cl-txt">XYZ, <br />ECE Dept, SVNIT</p>
                             </Col>
-                            <Col md={9}>
-                                <p className="text-left fs-3 hp-rew-cl-txt">
+                            <Col md={9} sm={12}>
+                                <p className="text-left hp-rew-cl-txt">
                                     Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships
                                 </p>
                             </Col>
@@ -174,12 +174,12 @@ function Homepage() {
                     <Carousel.Item className="px-5">
                         <Container className="hp-rew-cl">
                         <Row>
-                            <Col md={3} className="hp-rew-cl-img">
+                            <Col md={3} sm={12} className="hp-rew-cl-img">
                                 <img src={sgphoto} className="rounded-circle" align="center" alt="Ajay Makwana Sir"/>
-                                <p className="text-center">XYZ, <br />ECE Dept, SVNIT</p>
+                                <p className="text-center hp-rew-cl-txt">XYZ, <br />ECE Dept, SVNIT</p>
                             </Col>
-                            <Col md={9}>
-                                <p className="text-left fs-3 hp-rew-cl-txt">
+                            <Col md={9} sm={12}>
+                                <p className="text-left hp-rew-cl-txt">
                                     "Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships."
                                 </p>
                             </Col>
