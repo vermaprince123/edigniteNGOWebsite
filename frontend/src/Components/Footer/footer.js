@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
 import './footer.css'
+import logo from '../../Images/ediLogo.png'
 
 function Footer() {
     return (
@@ -10,7 +11,8 @@ function Footer() {
                 <footer>
                     <Row>
                         <Col md={6} className="ft-nameimg">
-                            Edignite Educational and Charitable Trust
+                            Edignite Educational and Charitable Trust <br/>
+                            <img src={logo} className="ft-img"/>
                         </Col>
                         <Col md={2} className="ft-col">
                             <b>About Us</b>

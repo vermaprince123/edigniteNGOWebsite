@@ -19,3 +19,9 @@
 .ft-col ul li a:hover{
     color: yellow;
 }
+
+.ft-img{
+    width: 10%;
+    height: auto;
+
+}
