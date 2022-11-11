@@ -8,20 +8,20 @@ function Contact(){
     return(
         <>
         <h2 className="text-center text-danger">Thank you for your interest in enlightening the lives of many !!<br />
-        Below are the contact details of our organization...
+        Below are the contact details of our organization. Below are the contact details from where you can reach us...
         </h2>
         <Container>
             <div className="text-center">
                 <div className="cnt-dt my-5 p-3">
-                    <h4>Office Address</h4>
+                    <h4>Edignite Educational And Charitable Trust</h4>
                     B-66 Ashish Row House, Variyav Road, Surat <br/>
                     <b>Contact Number</b>: -+91 7096277820   <br/>     
                     <b>Email</b>:- edignitengo@gmail.com <br/>
 
-                    <Instagram size={15} /> - ed_ignite <br/>
-                    <Facebook size={15} /> - Edignite NGO <br/>
-                    <Linkedin size={15} /> - Edignite NGO  <br/>   
-                    <Youtube size={15} /> - Edignite NGO <br/>   
+                    <a href="https://www.instagram.com/ed_ignite/" className="cnt-sm-lnk"><Instagram size={15} /> - ed_ignite</a> <br/>
+                    <a href="https://www.linkedin.com/company/edignite-ngo/" className="cnt-sm-lnk"><Linkedin size={15} /> - Edignite NGO</a> <br/>
+                    <a href="https://www.facebook.com/socialindiagroup.in" className="cnt-sm-lnk"><Facebook size={15} /> - Edignite NGO</a>  <br/>   
+                    <a href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg" className="cnt-sm-lnk"><Youtube size={15} /> - Edignite NGO</a> <br/>   
 
                 </div>
             </div>

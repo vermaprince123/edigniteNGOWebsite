@@ -13,7 +13,7 @@ import Team from './Components/Team/team.js';
 import Contact from './Components/Contact/contact.js';
 import './App.css';
 import Activities from './Components/Activities/activities';
-import { Instagram, Facebook, Linkedin } from 'react-bootstrap-icons';
+import { Instagram, Facebook, Linkedin, Youtube } from 'react-bootstrap-icons';
 
 
 /**
@@ -54,7 +54,8 @@ function App() {
       <div className="app-sm bg-warning">
         <a href="https://www.instagram.com/ed_ignite/"><Instagram size={15}/></a><br />
         <a href="https://www.facebook.com/socialindiagroup.in"><Facebook size={15}/></a><br />
-        <a href="https://www.linkedin.com/company/edignite-ngo/"><Linkedin size={15}/></a>
+        <a href="https://www.linkedin.com/company/edignite-ngo/"><Linkedin size={15}/></a><br />
+        <a href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg"><Youtube size={15}/></a>
       </div>
 
       <Routes>

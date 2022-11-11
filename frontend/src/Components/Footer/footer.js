@@ -29,6 +29,7 @@ function Footer() {
                                 <li><a href="https://www.instagram.com/ed_ignite/">Instagram</a></li>
                                 <li><a href="https://www.linkedin.com/company/edignite-ngo/">LinkedIn</a></li>
                                 <li><a href="https://www.facebook.com/socialindiagroup.in">Facebook</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg">YouTube</a></li>
                             </ul>
                         </Col>
                         <Col md={2} className="ft-col">

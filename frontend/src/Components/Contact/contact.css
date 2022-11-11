@@ -4,4 +4,14 @@
     border: solid gray 0.5px;
     border-radius: 5px;
     margin: auto;
+    color: purple;
+}
+
+.cnt-sm-lnk{
+    text-decoration: none;
+    color: purple;
+}
+
+.cnt-sm-lnk:hover{
+    color: orange;
 }
