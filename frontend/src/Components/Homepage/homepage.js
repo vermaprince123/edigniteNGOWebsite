@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Carousel, Container, Row, Col, Card } from 'react-bootstrap';
-import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel} from 'react-bootstrap-icons'
-import { Link } from "react-router-dom";
+import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel } from 'react-bootstrap-icons'
+// import { Link } from "react-router-dom";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './homepage.css'
 import donate from './Images/donate.png';
@@ -9,8 +9,10 @@ import volunteer from './Images/volunteer.png';
 import collaborate from './Images/collaborate.png';
 import about from './Images/hpabout.png';
 import sgphoto from './Images/sgphoto.jfif';
+import rewList from "./reviews";
 
 function Homepage() {
+    const rewLst = useState(rewList);
     return (
         <>
             <Carousel>
@@ -140,52 +142,30 @@ function Homepage() {
             </Container>
             <Container className="my-5 pt-2 hp-rew">
                 <h2 className="hp-rew-title text-center">From our Well Wishers....</h2>
-                <Carousel interval={7000}  className="my-2 hp-rew-2">
-                    <Carousel.Item className="px-5">
-                        <Container className="hp-rew-cl">
-                        <Row>
-                            <Col md={3} sm={12} className="hp-rew-cl-img">
-                                <img src={sgphoto} className="rounded-circle" align="center" alt="MKR Sir"/>
-                                <p className="text-center hp-rew-cl-txt">XYZ, <br />ECE Dept, SVNIT</p>
-                            </Col>
-                            <Col md={9} sm={12}>
-                                <p className="text-left  hp-rew-cl-txt">
-                                    Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships
-                                </p>
-                            </Col>
-                        </Row>
-                        </Container>
-                    </Carousel.Item>
-                    <Carousel.Item className="px-5">
-                        <Container className="hp-rew-cl">
-                        <Row>
-                            <Col md={3} sm={12} className="hp-rew-cl-img">
-                                <img src={sgphoto} className="rounded-circle" align="center" alt="Shilpi Ma'am"/>
-                                <p className="text-center hp-rew-cl-txt">XYZ, <br />ECE Dept, SVNIT</p>
-                            </Col>
-                            <Col md={9} sm={12}>
-                                <p className="text-left hp-rew-cl-txt">
-                                    Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships
-                                </p>
-                            </Col>
-                        </Row>
-                        </Container>
-                    </Carousel.Item>
-                    <Carousel.Item className="px-5">
-                        <Container className="hp-rew-cl">
-                        <Row>
-                            <Col md={3} sm={12} className="hp-rew-cl-img">
-                                <img src={sgphoto} className="rounded-circle" align="center" alt="Ajay Makwana Sir"/>
-                                <p className="text-center hp-rew-cl-txt">XYZ, <br />ECE Dept, SVNIT</p>
-                            </Col>
-                            <Col md={9} sm={12}>
-                                <p className="text-left hp-rew-cl-txt">
-                                    "Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships."
-                                </p>
-                            </Col>
-                        </Row>
-                        </Container>
-                    </Carousel.Item>
+                <Carousel interval={7000} className="my-2 hp-rew-2">
+
+                    {rewLst[0].map(
+                        (rewItem) => {
+                            return (
+                                <Carousel.Item className="px-5" key={rewItem.id}>
+                                    <Container className="hp-rew-cl">
+                                        <Row>
+                                            <Col md={3} sm={12} className="hp-rew-cl-img">
+                                                <img src={rewItem.img} className="rounded-circle" align="center" alt="MKR Sir" />
+                                                <p className="text-center hp-rew-cl-pdet">{rewItem.name}, <br />{rewItem.des}, {rewItem.org}</p>
+                                            </Col>
+                                            <Col md={9} sm={12}>
+                                                <p className="text-left  hp-rew-cl-txt">
+                                                    "{rewItem.rew}"
+                                                </p>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </Carousel.Item>
+                            );
+                        }
+                    )}
+
                 </Carousel>
             </Container>
         </>
