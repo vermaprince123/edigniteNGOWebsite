@@ -26,18 +26,18 @@ function Footer() {
                             <b>Contact Us</b>
                             <ul>
                                 <li><Link to="/contact">Contact Details</Link></li>
-                                <li><a href="https://www.instagram.com/ed_ignite/">Instagram</a></li>
-                                <li><a href="https://www.linkedin.com/company/edignite-ngo/">LinkedIn</a></li>
-                                <li><a href="https://www.facebook.com/socialindiagroup.in">Facebook</a></li>
-                                <li><a href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg">YouTube</a></li>
+                                <li><a href="https://www.instagram.com/ed_ignite/" target="_blank">Instagram</a></li>
+                                <li><a href="https://www.linkedin.com/company/edignite-ngo/" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://www.facebook.com/socialindiagroup.in" target="_blank">Facebook</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg" target="_blank">YouTube</a></li>
                             </ul>
                         </Col>
                         <Col md={2} className="ft-col">
                             <b>Join/ Help Us</b>
                             <ul>
-                                <li><a href="https://bit.ly/Edignite_Joining_Form">Volunteer at Edignite</a></li>
-                                <li><a href="https://bit.ly/Edignite_Internship">Get Interned at Edignite</a></li>
-                                <li><a href="https://surveyheart.com/form/631afede7f5e8e151e450799">Help the organization</a></li>
+                                <li><a href="https://bit.ly/Edignite_Joining_Form" target="_blank">Volunteer at Edignite</a></li>
+                                <li><a href="https://bit.ly/Edignite_Internship" target="_blank">Get Interned at Edignite</a></li>
+                                <li><a href="https://surveyheart.com/form/631afede7f5e8e151e450799" target="_blank">Help the organization</a></li>
                             </ul>
                         </Col>
                     </Row>

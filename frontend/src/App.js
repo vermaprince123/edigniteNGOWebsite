@@ -52,10 +52,10 @@ function App() {
       </Navbar>
 
       <div className="app-sm bg-warning">
-        <a href="https://www.instagram.com/ed_ignite/"><Instagram size={15}/></a><br />
-        <a href="https://www.facebook.com/socialindiagroup.in"><Facebook size={15}/></a><br />
-        <a href="https://www.linkedin.com/company/edignite-ngo/"><Linkedin size={15}/></a><br />
-        <a href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg"><Youtube size={15}/></a>
+        <a href="https://www.instagram.com/ed_ignite/" target="_blank"><Instagram size={15}/></a><br />
+        <a href="https://www.facebook.com/socialindiagroup.in" target="_blank"><Facebook size={15}/></a><br />
+        <a href="https://www.linkedin.com/company/edignite-ngo/" target="_blank"><Linkedin size={15}/></a><br />
+        <a href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg" target="_blank"><Youtube size={15}/></a>
       </div>
 
       <Routes>
