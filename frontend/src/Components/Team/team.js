@@ -9,7 +9,7 @@ function Team() {
     const [membersDetailsCloneData, setmembersDetailsCloneData] = useState(membersDetails);
     return (
         <>
-        <h5 className="text-center text-primary mt-3">
+        <h5 className="text-center text-danger mt-3 tm-int">
             The organization, 'Edignite Educational And Charitable Trust' was Founded by Prince Verma Sir in the year 2019. Since then it has been getting many enthusiastic volunteers who are always ready to enlighten a child's life....<br/>
             Here's the Core Team of the organisation.
         </h5>
@@ -26,13 +26,13 @@ function Team() {
                                     <span className="tm-vol-occ">{memberDetail.occupation}</span>
                                     <Row className="tm-vol-sm">
                                         <Col className="tm-vol-sm-lnk text-center" xs={4}>
-                                            <a className="tm-sm-lnk" href={memberDetail.instaId}><Instagram size={20} /></a>
+                                            <a className="tm-sm-lnk" href={memberDetail.instaId} target="_blank"><Instagram size={20} /></a>
                                         </Col>
                                         <Col className="tm-vol-sm-lnk text-center" xs={4}>
-                                            <a className="tm-sm-lnk" href={memberDetail.fbId}><Facebook size={20} /></a>
+                                            <a className="tm-sm-lnk" href={memberDetail.fbId} target="_blank"><Facebook size={20} /></a>
                                         </Col>
                                         <Col className="tm-vol-sm-lnk text-center" xs={4}>
-                                            <a className="tm-sm-lnk" href={memberDetail.lnkdinId}><Linkedin size={20} /></a>
+                                            <a className="tm-sm-lnk" href={memberDetail.lnkdinId} target="_blank"><Linkedin size={20} /></a>
                                         </Col>
                                     </Row>
                                 </div>

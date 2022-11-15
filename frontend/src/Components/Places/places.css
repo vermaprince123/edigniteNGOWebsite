@@ -1,4 +1,5 @@
 .pl-mn-hdg{
+    font-family: 'Edu NSW ACT Foundation', cursive;
     font-weight: 500;
 }
 
@@ -15,5 +16,8 @@
     width: 100%;
     height: 25%;
     font-weight: 700;
-    color: rgb(45, 44, 44);
+    color: rgb(149, 52, 239);
+    font-family: 'Oswald', sans-serif;
+    margin-top: 3px;
+
 }

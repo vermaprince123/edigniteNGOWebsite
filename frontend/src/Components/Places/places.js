@@ -10,9 +10,11 @@ function Places() {
     const placeLst = useState(placeList);
     return (
         <>
-            <Container className="text-center mt-3">
+            <Container fluid className="text-center text-danger mt-3">
                 <h4 className="pl-mn-hdg">We had started our journey with a single center in Surat, but with a dedicated team of volunteers and blessings of children, we now have around 15 centers and 250+ kids....Here are some of our centers !!!</h4>
                 <hr />
+                </Container>
+                <Container className="text-center mt-3">
                 <Row>
                     {placeLst[0].map(
                         (place) => {

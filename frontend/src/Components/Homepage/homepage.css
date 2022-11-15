@@ -40,7 +40,7 @@
     border-radius: 10px;
     box-sizing: border-box;
     font-family: cursive;
-    color: rgb(151, 108, 28);
+    color: rgb(85, 36, 149);
     height: max-content;
 }
 
@@ -64,6 +64,11 @@
 .hp-rew-cl-txt{
     border: none;
     height: max-content;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.hp-rew-cl-pdet{
+    font-family: 'Cairo Play', cursive;
 }
 
 @media (max-width: 590px) {
@@ -115,7 +120,7 @@
 @media (max-width: 420px) {
     .hp-rew-cl-txt{
         font-size: 10px;
-        margin-bottom: 2px;
+        margin-bottom: 1px;
     }
 
     .hp-rew-cl-pdet{
@@ -125,7 +130,7 @@
 
 @media (min-width: 500px) {
     .hp-rew-cl-txt{
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 2px;
     }
 

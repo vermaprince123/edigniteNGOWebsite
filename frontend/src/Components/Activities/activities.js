@@ -9,7 +9,7 @@ function Activities() {
     const actList = useState(ActivityList);
     return (
         <>
-            <h4 className="text-center text-danger my-4">Apart from academic teaching there are a lot of Activities and Events that we conduct for developing chindren and developing them in all areas of life...</h4>
+            <h4 className="text-center text-danger my-4 act-int">Apart from academic teaching there are a lot of Activities and Events that we conduct for developing children and developing them in all areas of life. Here are some of them...</h4>
             <hr />
             <Container className="text-center my-1">
 
@@ -17,7 +17,7 @@ function Activities() {
                     (act) => {
                         return (
                             <div className="act-sa my-3" key={act.id}>
-                                <h5>{act.actName}</h5>
+                                <h3>{act.actName}</h3>
                                 <div className="act-sa-det mb-3">{act.description}</div>
                                 <Row>
 

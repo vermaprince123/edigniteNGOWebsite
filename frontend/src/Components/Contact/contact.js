@@ -7,9 +7,9 @@ import './contact.css';
 function Contact(){
     return(
         <>
-        <h2 className="text-center text-danger">Thank you for your interest in enlightening the lives of many !!<br />
+        <h3 className="text-center text-danger px-2 mt-2 cnt-int">Thank you for your interest in enlightening the lives of many !!<br />
         Below are the contact details of our organization. Below are the contact details from where you can reach us...
-        </h2>
+        </h3>
         <Container>
             <div className="text-center">
                 <div className="cnt-dt my-5 p-3">

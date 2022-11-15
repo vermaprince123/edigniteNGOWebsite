@@ -1,5 +1,16 @@
+.act-int{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 400;
+}
+
+.act-sa h3{
+    font-family: 'Great Vibes', cursive;
+    color: blueviolet;
+}
+
 .act-sa-det{
-    border: black solid;
+    border: orange solid;
+    /* color: blueviolet; */
     border-width: 1px 0px 1px 0px;
 }
 
