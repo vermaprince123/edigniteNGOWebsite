@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Navbar bg="warning" variant="dark" expand="lg">
-        <Container>
+        <Container fluid>
           <Link className="ed_removeAnchorTagLine navbar-brand" to='/'>
             <img
               alt="Edignite Logo"
@@ -36,16 +36,16 @@ function App() {
               height="30"
               className="d-inline-block align-top"
             />
-            Edignite NGO
+            {   } Edignite NGO
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link className="ed_removeAnchorTagLine nav-link" to='/home'>Home</Link>
-              <Link className="ed_removeAnchorTagLine nav-link" to='/team'>Team Edignite</Link>
-              <Link className="ed_removeAnchorTagLine nav-link" to='/activities'>Our Activities</Link>
-              <Link className="ed_removeAnchorTagLine nav-link" to='/places'>Places We Go</Link>
-              <Link className="ed_removeAnchorTagLine nav-link" to='/contact'>Contact Us</Link>
+              <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/home'>Home</Link>
+              <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/team'>Team Edignite</Link>
+              <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/activities'>Our Activities</Link>
+              <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/places'>Places We Go</Link>
+              <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/contact'>Contact Us</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

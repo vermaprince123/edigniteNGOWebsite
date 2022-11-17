@@ -2,6 +2,14 @@
     text-decoration: none;
 }
 
+.nav-lnk{
+    color: white !important;
+}
+
+.nav-lnk:hover{
+    color: rgb(251, 242, 224) !important;
+}
+
 .app-sm{
     width: max-content;
     height: max-content;
