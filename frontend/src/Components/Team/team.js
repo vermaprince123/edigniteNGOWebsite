@@ -25,9 +25,7 @@ function Team() {
                                     <span className="tm-vol-nd"> {memberDetail.name}, {memberDetail.designation} </span><br />
                                     <span className="tm-vol-occ">{memberDetail.occupation}</span>
                                     <Row className="tm-vol-sm">
-                                        <Col className="tm-vol-sm-lnk text-center" xs={4}>
-                                            <a className="tm-sm-lnk" href={memberDetail.instaId} target="_blank"><Instagram size={20} /></a>
-                                        </Col>
+                                        <Col className="tm-vol-sm-lnk text-center" xs={4}><a className="tm-sm-lnk" href={memberDetail.instaId} target="_blank"><Instagram size={20} /></a></Col>
                                         <Col className="tm-vol-sm-lnk text-center" xs={4}>
                                             <a className="tm-sm-lnk" href={memberDetail.fbId} target="_blank"><Facebook size={20} /></a>
                                         </Col>
