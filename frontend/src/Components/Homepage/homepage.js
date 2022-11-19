@@ -8,7 +8,6 @@ import donate from './Images/donate.png';
 import volunteer from './Images/volunteer.png';
 import collaborate from './Images/collaborate.png';
 import about from './Images/hpabout.png';
-import sgphoto from './Images/sgphoto.jfif';
 import rewList from "./reviews";
 
 function Homepage() {
