@@ -18,7 +18,7 @@ function Team() {
                 <Row>
                     {membersDetailsCloneData.map((memberDetail) => {
                         return (
-                            <Col md={3} key={memberDetail.id} className="tm-vol-mem my-2">
+                            <Col md={3} key={memberDetail.id} className="tm-vol-mem mt-2 mb-3">
                                 <img src={memberDetail.srcImage} alt={memberDetail.alt}
                                     id="img-1" />
                                 <div className="tm-vol-det text-center mt-3">

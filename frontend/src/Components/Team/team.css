@@ -82,5 +82,10 @@
     }
 }
 
+@media (max-width: 988px) {
+    .tm-sm-lnk svg{
+        width: 15px;
+    }
+}
 
 
