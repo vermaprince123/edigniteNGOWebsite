@@ -26,6 +26,7 @@ function Footer() {
                             <b>Contact Us</b>
                             <ul>
                                 <li><Link to="/contact">Contact Details</Link></li>
+                                <li><a href="mailto:edignitengo@gmail.com?subject=Message to Edignite Team"  target="_blank"className="cnt-sm-lnk">Mail Us</a></li>
                                 <li><a href="https://www.instagram.com/ed_ignite/" target="_blank">Instagram</a></li>
                                 <li><a href="https://www.linkedin.com/company/edignite-ngo/" target="_blank">LinkedIn</a></li>
                                 <li><a href="https://www.facebook.com/socialindiagroup.in" target="_blank">Facebook</a></li>

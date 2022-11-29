@@ -13,7 +13,7 @@ import Team from './Components/Team/team.js';
 import Contact from './Components/Contact/contact.js';
 import './App.css';
 import Activities from './Components/Activities/activities';
-import { Instagram, Facebook, Linkedin, Youtube } from 'react-bootstrap-icons';
+import { Instagram, Facebook, Linkedin, Youtube, Envelope } from 'react-bootstrap-icons';
 
 
 /**
@@ -52,6 +52,7 @@ function App() {
       </Navbar>
 
       <div className="app-sm bg-warning">
+      <a href="mailto:edignitengo@gmail.com?subject=Message to Edignite Team"  target="_blank"className="cnt-sm-lnk"><Envelope size={15} /></a><br />
         <a href="https://www.instagram.com/ed_ignite/" target="_blank"><Instagram size={15}/></a><br />
         <a href="https://www.facebook.com/socialindiagroup.in" target="_blank"><Facebook size={15}/></a><br />
         <a href="https://www.linkedin.com/company/edignite-ngo/" target="_blank"><Linkedin size={15}/></a><br />
