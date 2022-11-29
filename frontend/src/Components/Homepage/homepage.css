@@ -138,3 +138,13 @@
         font-size: 15px;
     }
 }
+
+@media (max-width: 330px){
+    .hp-csl-cptn h3{
+        /* display: none !important; */
+        visibility: hidden;
+    }
+    .hp-csl-cptn a{
+        font-size: xx-small !important;
+    }
+}
