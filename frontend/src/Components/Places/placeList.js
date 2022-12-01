@@ -1,18 +1,24 @@
-import demoImg from './Images/nilam.jpg';
+import nilamImg from './Images/nilam.png';
 import umraImg from './Images/umra.jpg';
 import sarojiniImg from './Images/sarojini.jpg';
 import floralImg from './Images/floral.jpg';
-import umrabrtsImg from './Images/umrabrts.jpg';
+import umrabrtsImg from './Images/umrabrts.png';
 import adajanImg from './Images/adajan.jpg';
-import karunaImg from './Images/karuna.jpg';
-import gur2Img from './Images/gur2.jpg';
-import astronImg from './Images/astron.jpg';
+import astronImg from './Images/astron.png';
+import gurgaon2Img from './Images/gurgaon2.jpg';
+import gurgaon1Img from './Images/gurgaon1.png';
+import palwalImg from './Images/palwal.png';
+import karunasagarImg from './Images/karunasagar.png';
+import citylightImg from './Images/citylight.png';
+import equarterImg from './Images/equarter.png';
+import sarjanImg from './Images/sarjan.png';
+import kargilImg from './Images/kargil.png';
 
 const placeList = [
     {
         "id": 1,
         "pName": "Nilam Society",
-        "srcImg": demoImg
+        "srcImg": nilamImg
     },
     {
         "id": 2,
@@ -22,12 +28,12 @@ const placeList = [
     {
         "id": 3,
         "pName": "Citylights",
-        "srcImg": demoImg
+        "srcImg": citylightImg
     },
     {
         "id": 4,
         "pName": "Kargil Chowk",
-        "srcImg": demoImg
+        "srcImg": kargilImg
     },
     {
         "id": 5,
@@ -52,27 +58,27 @@ const placeList = [
     {
         "id": 9,
         "pName": "Karunasagar Temple",
-        "srcImg": karunaImg
+        "srcImg": karunasagarImg
     },
     {
         "id": 10,
         "pName": "E Quarters",
-        "srcImg": demoImg
+        "srcImg": equarterImg
     },
     {
         "id": 11,
         "pName": "Palwal",
-        "srcImg": demoImg
+        "srcImg": palwalImg
     },
     {
         "id": 12,
         "pName": "Gurgaon 1",
-        "srcImg": demoImg
+        "srcImg": gurgaon1Img
     },
     {
         "id": 13,
         "pName": "Gurgaon 2",
-        "srcImg": gur2Img
+        "srcImg": gurgaon2Img
     },
     {
         "id": 14,
@@ -81,8 +87,8 @@ const placeList = [
     },
     {
         "id": 15,
-        "pName": "Dausa, Rajasthan",
-        "srcImg": demoImg
+        "pName": "Sarjan Society",
+        "srcImg": sarjanImg
     },
 ]
 
