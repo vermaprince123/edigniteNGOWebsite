@@ -9,11 +9,12 @@ import imgBrijesh from './Images/volBrijesh.png';
 import imgFiroj from './Images/volFiroj.png';
 import imgNeela from './Images/volNeela.png';
 import imgAlankrita from './Images/volAlankrita.png';
-import imgTejal from './Images/volTejal.png';
+// import imgTejal from './Images/volTejal.png';
 import imgArvind from './Images/volArvind.png';
 import imgAmarendra from './Images/volAmarendra.png';
-import imgSuswara from './Images/volSuswara.png';
+import imgSuswara from './Images/volNitish.png';
 import imgShruti from './Images/volShruti.png';
+import imgNitish from './Images/volNitish.png';
 const membersDetails = [
     {
         "id":1,
@@ -92,7 +93,7 @@ const membersDetails = [
         "name":"Pavan Gautam",
         "srcImage":imgPavan,
         "alt":"prince verma",
-        "designation":"Trustee and Teaching Head",
+        "designation":"Trustee & Teaching Head",
         "occupation":"4th Year M'Sc. Mathematics, NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
         "instaId": "https://www.instagram.com/pavan__1729/",
@@ -116,7 +117,7 @@ const membersDetails = [
         "name":"Brijesh Saini",
         "srcImage":imgBrijesh,
         "alt":"prince verma",
-        "designation":"Trustee and Social Media Management Head",
+        "designation":"Trustee & Social Media Management Head",
         "occupation":"BTech Final Year Chemical Engg., NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
         "instaId": "https://www.instagram.com/brijeshsaini_05/",
@@ -128,7 +129,7 @@ const membersDetails = [
         "name":"Firoj Banjare",
         "srcImage":imgFiroj,
         "alt":"prince verma",
-        "designation":"Trustee and Distributions Head",
+        "designation":"Trustee & Distributions Head",
         "occupation":"4th Year M.Sc. Physics, NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
         "instaId": "https://www.instagram.com/cypher_0010/",
@@ -140,7 +141,7 @@ const membersDetails = [
         "name":"Neela Vasava",
         "srcImage":imgNeela,
         "alt":"prince verma",
-        "designation":"Trustee and Advisor",
+        "designation":"Trustee & Advisor",
         "occupation":"B.Tech. Final Year Electrical Engg., NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
         "instaId": "https://www.instagram.com/cypher_0010/",
@@ -161,7 +162,7 @@ const membersDetails = [
     },
     {
         "id": 13,
-        "name":"Nitish Chandaka",
+        "name":"Nitish Ch&aka",
         "srcImage":imgNitish,
         "alt":"prince verma",
         "designation":"HR",
