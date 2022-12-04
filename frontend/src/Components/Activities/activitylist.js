@@ -1,4 +1,39 @@
 import demoImg from './Images/demo.JPG';
+import artcraft from './Images/artcraft.png';
+import birthday from './Images/birthday.png';
+import bookfair from './Images/bookfair.png';
+import bottledis from './Images/bottledis.png';
+import careerguid from './Images/careerguid.png';
+import children from './Images/children.png';
+import classical from './Images/classical.png';
+import clothdis from './Images/clothdis.png';
+import cycledis from './Images/cycledis.png';
+import dance from './Images/dance.png';
+import diwali from './Images/diwali.png';
+import drawing from './Images/drawing.png';
+import dummyshopping from './Images/dummyshopping.png';
+import financiallit from './Images/financiallit.png';
+import fooddis from './Images/fooddis.png';
+import footweardis from './Images/footweardis.png';
+import frspen from './Images/frspen.png';
+import ganchat from './Images/ganchat.png';
+import haryana from './Images/haryana.png';
+import independence from './Images/independence.png';
+import janmastami from './Images/janmastami.png';
+import maskdis from './Images/maskdis.png';
+import movie from './Images/movie.png';
+import parentawar from './Images/parentawar.png';
+import popcornmak from './Images/popcornmak.png';
+import rakshabandhan from './Images/rakshabandhan.png';
+import ramnavmi from './Images/ramnavmi.png';
+import scicenter from './Images/scicenter.png';
+import selfdef from './Images/selfdef.png';
+import singing from './Images/singing.png';
+import stationerydis from './Images/stationerydis.png';
+import student from './Images/student.png';
+import sweaterdis from './Images/sweaterdis.png';
+import upscsess from './Images/upscsess.png';
+import youngsci from './Images/youngsci.png';
 
 const ActivityList = [
 
@@ -9,38 +44,43 @@ const ActivityList = [
         "subAct": [
             {
                 "id": 1,
-                "srcImg": demoImg,
+                "srcImg": clothdis,
                 "name": "Cloth Distribution"
             },
             {
                 "id": 2,
-                "srcImg": demoImg,
+                "srcImg": fooddis,
                 "name": "Food Distribution"
             },
             {
                 "id": 3,
-                "srcImg": demoImg,
+                "srcImg": sweaterdis,
                 "name": "Sweater Distribution"
             },
             {
                 "id": 4,
-                "srcImg": demoImg,
+                "srcImg": stationerydis,
                 "name": "Stationery Distribution"
             },
             {
                 "id": 5,
-                "srcImg": demoImg,
+                "srcImg": bottledis,
                 "name": "Bottle Distribution"
             },
             {
                 "id": 6,
-                "srcImg": demoImg,
+                "srcImg": cycledis,
                 "name": "Cycle Distribution"
             },
             {
                 "id": 7,
-                "srcImg": demoImg,
+                "srcImg": footweardis,
                 "name": "Footwear Distribution"
+            },
+            {
+                "id": 8,
+                "srcImg": maskdis,
+                "name": "Sanitizer and Mask Distribution"
             }
         ]
     },
@@ -51,44 +91,54 @@ const ActivityList = [
         "subAct": [
             {
                 "id": 1,
-                "srcImg": demoImg,
+                "srcImg": haryana,
                 "name": "Haryana Divas"
             },
             {
                 "id": 2,
-                "srcImg": demoImg,
+                "srcImg": student,
                 "name": "Student Day"
             },
             {
                 "id": 3,
-                "srcImg": demoImg,
+                "srcImg": janmastami,
                 "name": "Janmastami"
             },
             {
                 "id": 4,
-                "srcImg": demoImg,
+                "srcImg": ganchat,
                 "name": "Ganesh Chaturthi"
             },
             {
                 "id": 5,
-                "srcImg": demoImg,
+                "srcImg": independence,
                 "name": "Independence Day"
             },
             {
                 "id": 6,
-                "srcImg": demoImg,
+                "srcImg": rakshabandhan,
                 "name": "Rakshabandhan"
             },
             {
                 "id": 7,
-                "srcImg": demoImg,
+                "srcImg": ramnavmi,
                 "name": "Ramnavmi"
             },
             {
                 "id": 8,
-                "srcImg": demoImg,
-                "name": "Ramnavmi"
-            }
+                "srcImg": children,
+                "name": "Children's Day"
+            },
+            {
+                "id": 9,
+                "srcImg": birthday,
+                "name": "Birthday Celebration"
+            },
+            {
+                "id": 10,
+                "srcImg": diwali,
+                "name": "Diwali Celebration"
+            },
         ]
     },
     {
@@ -98,38 +148,48 @@ const ActivityList = [
         "subAct": [
             {
                 "id": 1,
-                "srcImg": demoImg,
+                "srcImg": bookfair,
                 "name": "Book Fair Visit"
             },
             {
                 "id": 2,
-                "srcImg": demoImg,
-                "name": "Shopping Center Visit"
+                "srcImg": upscsess,
+                "name": "UPSC Session Visit"
             },
             {
                 "id": 3,
-                "srcImg": demoImg,
+                "srcImg": scicenter,
                 "name": "Science Center Visit"
             },
             {
                 "id": 4,
-                "srcImg": demoImg,
+                "srcImg": dance,
                 "name": "Dance Competition"
             },
             {
                 "id": 5,
-                "srcImg": demoImg,
+                "srcImg": singing,
                 "name": "Singing Competition"
             },
             {
                 "id": 6,
-                "srcImg": demoImg,
+                "srcImg": drawing,
                 "name": "Drawing Competition"
             },
             {
                 "id": 7,
-                "srcImg": demoImg,
+                "srcImg": youngsci,
                 "name": "Young Scientist Competition"
+            },
+            {
+                "id": 8,
+                "srcImg": classical,
+                "name": "Classical Programme Visit"
+            },
+            {
+                "id": 9,
+                "srcImg": selfdef,
+                "name": "Self Defence Workshop"
             }
         ]
     },
@@ -140,45 +200,51 @@ const ActivityList = [
         "subAct": [
             {
                 "id": 1,
-                "srcImg": demoImg,
+                "srcImg": parentawar,
                 "name": "Awareness Session on parenting"
             },
             {
                 "id": 2,
-                "srcImg": demoImg,
-                "name": "Women Hygiene Session"
+                "srcImg": careerguid,
+                "name": "Career Guidance Sessions"
             },
             {
                 "id": 3,
-                "srcImg": demoImg,
-                "name": "Career Guidance Session"
-            },
-            {
-                "id": 4,
-                "srcImg": demoImg,
-                "name": "Career Guidance Webinar"
-            },
-            {
-                "id": 5,
-                "srcImg": demoImg,
+                "srcImg": financiallit,
                 "name": "Financial Literacy Workshop"
             },
             {
-                "id": 6,
-                "srcImg": demoImg,
+                "id": 4,
+                "srcImg": frspen,
                 "name": "English, French, and Spanish Workshop"
             },
+        ]
+    },
+    {
+        "id": 5,
+        "actName": "Other Activities",
+        "description": "We also organize several other co-curricular activities to ensure overall development of kids. Some of which include: -",
+        "subAct": [
             {
-                "id": 7,
-                "srcImg": demoImg,
-                "name": "DSA, Git, and Python Workshop"
+                "id": 1,
+                "srcImg": popcornmak,
+                "name": "Popcorn Making - Best out of waste"
             },
             {
-                "id": 8,
-                "srcImg": demoImg,
-                "name": "Workshop on SolidWorks"
+                "id": 2,
+                "srcImg": artcraft,
+                "name": "Art And Craft"
             },
-
+            {
+                "id": 3,
+                "srcImg": dummyshopping,
+                "name": "Dummy Shopping Centre"
+            },
+            {
+                "id": 4,
+                "srcImg": movie,
+                "name": "Movie Time"
+            },
         ]
     },
 

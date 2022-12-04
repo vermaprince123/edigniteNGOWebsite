@@ -12,7 +12,7 @@ import imgAlankrita from './Images/volAlankrita.png';
 // import imgTejal from './Images/volTejal.png';
 import imgArvind from './Images/volArvind.png';
 import imgAmarendra from './Images/volAmarendra.png';
-import imgSuswara from './Images/volNitish.png';
+import imgSuswara from './Images/volSuswara.png';
 import imgShruti from './Images/volShruti.png';
 import imgNitish from './Images/volNitish.png';
 const membersDetails = [
@@ -32,19 +32,19 @@ const membersDetails = [
         "id":2,
         "name":"Vishal Sachan",
         "srcImage":imgVishal,
-        "alt":"prince verma",
+        "alt":"Vishal Sachan",
         "designation":"Co-Founder",
         "occupation":"Final Year M.Sc. Chemistry, NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
         "instaId": "https://www.instagram.com/unstoppable_warrior__/",
-        "fbId": "https://www.facebook.com/prince.verma.1004837",
+        "fbId": "https://www.facebook.com/vishal.sachan.10048",
         "lnkdinId": "https://www.linkedin.com/in/vishal-sachan-svnit/"
     },
     {
         "id": 3,
         "name":"Heer Mehta",
         "srcImage":imgHeer,
-        "alt":"prince verma",
+        "alt":"Heer Mehta",
         "designation":"Minister",
         "occupation":"Final Year B.Tech. Chemical Engg., NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
@@ -56,7 +56,7 @@ const membersDetails = [
         "id": 5,
         "name":"Sarita Yadav",
         "srcImage":imgSarita,
-        "alt":"prince verma",
+        "alt":"Sarita Yadav",
         "designation":"Head of Adisory",
         "occupation":"M.Sc. Mathematics",
         "achivements":"Open Source Contributer, Author of three books",
@@ -68,43 +68,43 @@ const membersDetails = [
         "id": 6,
         "name":"Dr. Jyoti Yadav",
         "srcImage":imgJyoti,
-        "alt":"prince verma",
+        "alt":"Jyoti Yadav",
         "designation":"Advisor",
         "occupation":"Physiotherapist",
         "achivements":"Open Source Contributer, Author of three books",
         "instaId": "https://www.instagram.com/ed_ignite/",
-        "fbId": "https://www.facebook.com/prince.verma.1004837",
+        "fbId": "https://www.facebook.com/socialindiagroup.in",
         "lnkdinId": "https://www.linkedin.com/in/dr-jyoti-yadav-pt-490718170/"
     },
     {
         "id": 10,
         "name":"Anusree",
         "srcImage":imgAnusree,
-        "alt":"prince verma",
+        "alt":"Anusree",
         "designation":"Member",
         "occupation":"B.Tech. Final Year Electrical Engg., NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
-        "instaId": "https://www.instagram.com/pavan__1729/",
-        "fbId": "https://www.facebook.com/prince.verma.1004837",
+        "instaId": "https://www.instagram.com/anu6154s/",
+        "fbId": "https://www.facebook.com/annu.lee.33",
         "lnkdinId": "https://www.linkedin.com/company/edignite-ngo/"
     },
     {
         "id": 7,
         "name":"Pavan Gautam",
         "srcImage":imgPavan,
-        "alt":"prince verma",
+        "alt":"Pavan Gautam",
         "designation":"Trustee & Teaching Head",
         "occupation":"4th Year M'Sc. Mathematics, NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
         "instaId": "https://www.instagram.com/pavan__1729/",
-        "fbId": "https://www.facebook.com/prince.verma.1004837",
+        "fbId": "https://www.facebook.com/profile.php?id=100017673277317",
         "lnkdinId": "https://www.linkedin.com/company/edignite-ngo/"
     },
     {
         "id": 8,
         "name":"Brijesh Saini",
         "srcImage":imgBrijesh,
-        "alt":"prince verma",
+        "alt":"Brijesh Saini",
         "designation":"Trustee & Social Media Management Head",
         "occupation":"BTech Final Year Chemical Engg., NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
@@ -116,7 +116,7 @@ const membersDetails = [
         "id": 9,
         "name":"Firoj Banjare",
         "srcImage":imgFiroj,
-        "alt":"prince verma",
+        "alt":"Firoj Banjare",
         "designation":"Trustee & Distributions Head",
         "occupation":"4th Year M.Sc. Physics, NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
@@ -128,85 +128,85 @@ const membersDetails = [
         "id": 13,
         "name":"Nitish Chandaka",
         "srcImage":imgNitish,
-        "alt":"prince verma",
+        "alt":"Nitish Chandaka",
         "designation":"HR",
         "occupation":"B.Tech. Final Year, Chemical Engg., NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
-        "instaId": "https://www.instagram.com/cypher_0010/",
-        "fbId": "https://www.facebook.com/firoj.banjare.3",
-        "lnkdinId": "https://www.linkedin.com/in/firoj-banjare-539b2319b/"
+        "instaId": "https://www.instagram.com/nitish_chandaka/",
+        "fbId": "https://www.facebook.com/sainitu.chandaka.5",
+        "lnkdinId": "https://www.linkedin.com/in/nitish-chandaka-145b391a4/"
     },
     {
         "id": 4,
         "name":"Alankrita Verma",
         "srcImage":imgAlankrita,
-        "alt":"prince verma",
+        "alt":"Alankrita Verma",
         "designation":"Trustee & Applicant",
         "occupation":"Final Year, B.Tech. Electronics Engg., NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
         "instaId": "https://www.instagram.com/alankritaverma00/",
-        "fbId": "https://www.facebook.com/prince.verma.1004837",
+        "fbId": "https://www.facebook.com/alankrita.verma.5667",
         "lnkdinId": "https://www.linkedin.com/in/alankrita-verma-8182301b1/"
     },
     {
         "id": 11,
         "name":"Neela Vasava",
         "srcImage":imgNeela,
-        "alt":"prince verma",
+        "alt":"Neela Vasava",
         "designation":"Trustee",
         "occupation":"B.Tech. Final Year Electrical Engg., NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
-        "instaId": "https://www.instagram.com/cypher_0010/",
-        "fbId": "https://www.facebook.com/firoj.banjare.3",
-        "lnkdinId": "https://www.linkedin.com/in/firoj-banjare-539b2319b/"
+        "instaId": "https://www.instagram.com/wellwisher_002/",
+        "fbId": "https://www.facebook.com/vasava.neelaben",
+        "lnkdinId": "https://www.linkedin.com/in/neela-vasava-6a883b220/"
     },
     {
         "id": 12,
         "name":"Arvind Kushwaha",
         "srcImage":imgArvind,
-        "alt":"prince verma",
+        "alt":"Arvind Kushwaha",
         "designation":"Trustee",
         "occupation":"4th Year M.Sc. Mathematics, NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
-        "instaId": "https://www.instagram.com/cypher_0010/",
-        "fbId": "https://www.facebook.com/firoj.banjare.3",
-        "lnkdinId": "https://www.linkedin.com/in/firoj-banjare-539b2319b/"
+        "instaId": "https://www.instagram.com/arvindkushwaha672/",
+        "fbId": "https://www.facebook.com/profile.php?id=100047152792215",
+        "lnkdinId": "https://www.linkedin.com/company/edignite-ngo"
     },
     {
         "id": 15,
         "name":"Amarendra Singh",
         "srcImage":imgAmarendra,
-        "alt":"prince verma",
+        "alt":"Amarendra Singh",
         "designation":"Trustee",
         "occupation":"4th Year M.Sc. Chemistry, NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
-        "instaId": "https://www.instagram.com/cypher_0010/",
-        "fbId": "https://www.facebook.com/firoj.banjare.3",
-        "lnkdinId": "https://www.linkedin.com/in/firoj-banjare-539b2319b/"
+        "instaId": "https://www.instagram.com/amarendras413/",
+        "fbId": "https://www.facebook.com/profile.php?id=100040423332346",
+        "lnkdinId": "https://www.linkedin.com/in/amarendra-singh-008ba7225/"
     },
     {
         "id": 14,
         "name":"V Sree Suswara",
         "srcImage":imgSuswara,
-        "alt":"prince verma",
+        "alt":"V Sree Suswara",
         "designation":"Member",
         "occupation":"4th Year M.Sc. Physics, NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
-        "instaId": "https://www.instagram.com/cypher_0010/",
-        "fbId": "https://www.facebook.com/firoj.banjare.3",
-        "lnkdinId": "https://www.linkedin.com/in/firoj-banjare-539b2319b/"
+        "instaId": "https://www.instagram.com/__swara_30/",
+        "fbId": "https://www.facebook.com/vsreesuswara.veenem",
+        "lnkdinId": "https://www.linkedin.com/in/v-sree-suswara-7992b51b0/"
     },
     {
         "id": 16,
         "name":"Shruti Shah",
         "srcImage":imgShruti,
-        "alt":"prince verma",
+        "alt":"Shruti Shah",
         "designation":"Member",
         "occupation":"3rd Year M.Sc. Mathematics, NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
-        "instaId": "https://www.instagram.com/cypher_0010/",
-        "fbId": "https://www.facebook.com/firoj.banjare.3",
-        "lnkdinId": "https://www.linkedin.com/in/firoj-banjare-539b2319b/"
+        "instaId": "https://www.instagram.com/shrush_1203/",
+        "fbId": "https://www.facebook.com/socialindiagroup.in",
+        "lnkdinId": "https://www.linkedin.com/company/edignite-ngo//"
     },
 ];
 
