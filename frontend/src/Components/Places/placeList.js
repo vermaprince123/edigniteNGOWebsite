@@ -5,7 +5,7 @@ import floralImg from './Images/floral.png';
 import umrabrtsImg from './Images/umrabrts.png';
 import adajanImg from './Images/adajan.jpg';
 import astronImg from './Images/astron.png';
-import gurgaon2Img from './Images/gurgaon2.jpg';
+import gurgaon2Img from './Images/gurgaon2.png';
 import gurgaon1Img from './Images/gurgaon1.png';
 import palwalImg from './Images/palwal.png';
 import karunasagarImg from './Images/karunasagar.png';
