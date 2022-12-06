@@ -2,20 +2,23 @@ import React, { useState } from "react";
 import { Row, Col, Container } from 'react-bootstrap';
 import { Instagram, Facebook, Linkedin } from 'react-bootstrap-icons'
 import './team.css';
-import membersDetails from './memberDetails';
+import { membersDetails, volList } from './memberDetails';
 
 
 function Team() {
     const [membersDetailsCloneData, setmembersDetailsCloneData] = useState(membersDetails);
+    const volData = useState(volList);
     return (
         <>
         <h5 className="text-center text-danger mt-3 tm-int">
             The organization, 'Edignite Educational And Charitable Trust' was Founded by Prince Verma Sir in the year 2019. Since then it has been getting many enthusiastic volunteers who are always ready to enlighten a child's life....<br/>
-            Here's the Core Team of the organisation.
+            Here's the Team of enthusiastic volunteers at Edignite.
         </h5>
         <hr />
             <Container>
-                <Row>
+                <Row className="text-center">
+                    <h3 className="tm-vol-ttl">Core Members</h3>
+                    <hr />
                     {membersDetailsCloneData.map((memberDetail) => {
                         return (
                             <Col md={3} key={memberDetail.id} className="tm-vol-mem mt-2 mb-3">
@@ -40,6 +43,16 @@ function Team() {
 
                     })
                     }
+                    <hr className="mt-5"/>
+                    <h3 className="tm-vol-ttl">Enthusiastic Volunteers !!!</h3>
+                    <hr />
+                    {volData[0].map((vol)=>{
+                        return(
+                            <Col md={3} sm={12} xs={12} key={vol.id}>
+                                {vol.name}
+                            </Col>
+                        )
+                    })}
                 </Row>
             </Container>
         </>

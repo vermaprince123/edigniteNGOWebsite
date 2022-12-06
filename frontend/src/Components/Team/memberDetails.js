@@ -15,7 +15,7 @@ import imgAmarendra from './Images/volAmarendra.png';
 import imgSuswara from './Images/volSuswara.png';
 import imgShruti from './Images/volShruti.png';
 import imgNitish from './Images/volNitish.png';
-const membersDetails = [
+export const membersDetails = [
     {
         "id":1,
         "name":"Prince Verma",
@@ -209,5 +209,76 @@ const membersDetails = [
         "lnkdinId": "https://www.linkedin.com/company/edignite-ngo//"
     },
 ];
+
+export const volList = [
+    {
+        "id": 1,
+        "name": "Adarsh Kumar"
+    },
+    {
+        "id": 2,
+        "name": "Surendra Rana"
+    },
+    {
+        "id": 3,
+        "name": "Pramod Chaudhari"
+    },
+    {
+        "id": 4,
+        "name": "Manak Parmar"
+    },
+    {
+        "id": 5,
+        "name": "Jaikishan Sahu"
+    },
+    {
+        "id": 6,
+        "name": "Sachin Kumar"
+    },
+    {
+        "id": 7,
+        "name": "Prathmesh Kadam"
+    },
+    {
+        "id": 8,
+        "name": "Pratiksha Ramanuj"
+    },
+    {
+        "id": 9,
+        "name": "Shreya Rana"
+    },
+    {
+        "id": 10,
+        "name": "Pranav Abegaonkar"
+    },
+    {
+        "id": 11,
+        "name": "Divya Sharma"
+    },
+    {
+        "id": 12,
+        "name": "Geetanjali Yadav"
+    },
+    {
+        "id": 13,
+        "name": "Sonu Oraon"
+    },
+    {
+        "id": 14,
+        "name": "Aagam Vora"
+    },
+    {
+        "id": 15,
+        "name": "Muthiya Aadil"
+    },
+    {
+        "id": 16,
+        "name": "Mrunal Alatkar"
+    },
+    {
+        "id": 17,
+        "name": "Reshma Maurya"
+    },
+]
 
 export  default  membersDetails;
