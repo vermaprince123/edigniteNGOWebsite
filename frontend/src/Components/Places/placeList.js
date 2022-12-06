@@ -21,49 +21,14 @@ const placeList = [
         "srcImg": nilamImg
     },
     {
-        "id": 2,
-        "pName": "Umra Gam",
-        "srcImg": umraImg
-    },
-    {
-        "id": 3,
-        "pName": "Citylights",
-        "srcImg": citylightImg
-    },
-    {
         "id": 4,
         "pName": "Kargil Chowk",
         "srcImg": kargilImg
     },
     {
-        "id": 5,
-        "pName": "Sarojini Naidu Garden",
-        "srcImg": sarojiniImg
-    },
-    {
-        "id": 6,
-        "pName": "Floral Garden",
-        "srcImg": floralImg
-    },
-    {
-        "id": 7,
-        "pName": "Umra Gam BRTS",
-        "srcImg": umrabrtsImg
-    },
-    {
-        "id": 8,
-        "pName": "Adajan Colony",
-        "srcImg": adajanImg
-    },
-    {
-        "id": 9,
-        "pName": "Karunasagar Temple",
-        "srcImg": karunasagarImg
-    },
-    {
-        "id": 10,
-        "pName": "E Quarters",
-        "srcImg": equarterImg
+        "id": 3,
+        "pName": "Citylights",
+        "srcImg": citylightImg
     },
     {
         "id": 11,
@@ -81,14 +46,49 @@ const placeList = [
         "srcImg": gurgaon2Img
     },
     {
-        "id": 14,
-        "pName": "Astron Chowk",
-        "srcImg": astronImg
+        "id": 6,
+        "pName": "Floral Garden",
+        "srcImg": floralImg
+    },
+    {
+        "id": 8,
+        "pName": "Adajan Colony",
+        "srcImg": adajanImg
+    },
+    {
+        "id": 9,
+        "pName": "Karunasagar Temple",
+        "srcImg": karunasagarImg
+    },
+    {
+        "id": 10,
+        "pName": "E Quarters",
+        "srcImg": equarterImg
+    },
+    {
+        "id": 2,
+        "pName": "Umra Gam",
+        "srcImg": umraImg
+    },
+    {
+        "id": 7,
+        "pName": "Umra Gam BRTS",
+        "srcImg": umrabrtsImg
+    },
+    {
+        "id": 5,
+        "pName": "Sarojini Naidu Garden",
+        "srcImg": sarojiniImg
     },
     {
         "id": 15,
         "pName": "Sarjan Society",
         "srcImg": sarjanImg
+    },
+    {
+        "id": 14,
+        "pName": "Astron Chowk",
+        "srcImg": astronImg
     },
 ]
 

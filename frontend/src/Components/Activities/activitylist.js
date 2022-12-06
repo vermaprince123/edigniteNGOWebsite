@@ -43,11 +43,6 @@ const ActivityList = [
         "description": "We try to meet overall needs of the children by conducting several distribution drives like Stationery, Food, Cloth, Footwear, Bottle, Sweater, etc",
         "subAct": [
             {
-                "id": 1,
-                "srcImg": clothdis,
-                "name": "Cloth Distribution"
-            },
-            {
                 "id": 2,
                 "srcImg": fooddis,
                 "name": "Food Distribution"
@@ -58,9 +53,19 @@ const ActivityList = [
                 "name": "Sweater Distribution"
             },
             {
+                "id": 1,
+                "srcImg": clothdis,
+                "name": "Cloth Distribution"
+            },
+            {
                 "id": 4,
                 "srcImg": stationerydis,
                 "name": "Stationery Distribution"
+            },
+            {
+                "id": 8,
+                "srcImg": maskdis,
+                "name": "Sanitizer and Mask Distribution"
             },
             {
                 "id": 5,
@@ -77,11 +82,6 @@ const ActivityList = [
                 "srcImg": footweardis,
                 "name": "Footwear Distribution"
             },
-            {
-                "id": 8,
-                "srcImg": maskdis,
-                "name": "Sanitizer and Mask Distribution"
-            }
         ]
     },
     {
@@ -90,9 +90,24 @@ const ActivityList = [
         "description": "We celebrate several festivals with the kids, and teach them their significance. Along with festivals several people including volunteers celebrate their birthdays with these little kids",
         "subAct": [
             {
-                "id": 1,
-                "srcImg": haryana,
-                "name": "Haryana Divas"
+                "id": 8,
+                "srcImg": children,
+                "name": "Children's Day"
+            },
+            {
+                "id": 6,
+                "srcImg": rakshabandhan,
+                "name": "Rakshabandhan"
+            },
+            {
+                "id": 5,
+                "srcImg": independence,
+                "name": "Independence Day"
+            },
+            {
+                "id": 10,
+                "srcImg": diwali,
+                "name": "Diwali Celebration"
             },
             {
                 "id": 2,
@@ -110,34 +125,19 @@ const ActivityList = [
                 "name": "Ganesh Chaturthi"
             },
             {
-                "id": 5,
-                "srcImg": independence,
-                "name": "Independence Day"
-            },
-            {
-                "id": 6,
-                "srcImg": rakshabandhan,
-                "name": "Rakshabandhan"
-            },
-            {
                 "id": 7,
                 "srcImg": ramnavmi,
                 "name": "Ramnavmi"
             },
             {
-                "id": 8,
-                "srcImg": children,
-                "name": "Children's Day"
+                "id": 1,
+                "srcImg": haryana,
+                "name": "Haryana Divas"
             },
             {
                 "id": 9,
                 "srcImg": birthday,
                 "name": "Birthday Celebration"
-            },
-            {
-                "id": 10,
-                "srcImg": diwali,
-                "name": "Diwali Celebration"
             },
         ]
     },
@@ -152,24 +152,24 @@ const ActivityList = [
                 "name": "Book Fair Visit"
             },
             {
-                "id": 2,
-                "srcImg": upscsess,
-                "name": "UPSC Session Visit"
-            },
-            {
                 "id": 3,
                 "srcImg": scicenter,
                 "name": "Science Center Visit"
             },
             {
-                "id": 4,
-                "srcImg": dance,
-                "name": "Dance Competition"
+                "id": 2,
+                "srcImg": upscsess,
+                "name": "UPSC Session Visit"
             },
             {
-                "id": 5,
-                "srcImg": singing,
-                "name": "Singing Competition"
+                "id": 8,
+                "srcImg": classical,
+                "name": "Classical Programme Visit"
+            },
+            {
+                "id": 9,
+                "srcImg": selfdef,
+                "name": "Self Defence Workshop"
             },
             {
                 "id": 6,
@@ -182,15 +182,15 @@ const ActivityList = [
                 "name": "Young Scientist Competition"
             },
             {
-                "id": 8,
-                "srcImg": classical,
-                "name": "Classical Programme Visit"
+                "id": 5,
+                "srcImg": singing,
+                "name": "Singing Competition"
             },
             {
-                "id": 9,
-                "srcImg": selfdef,
-                "name": "Self Defence Workshop"
-            }
+                "id": 4,
+                "srcImg": dance,
+                "name": "Dance Competition"
+            },
         ]
     },
     {
@@ -204,9 +204,9 @@ const ActivityList = [
                 "name": "Awareness Session on parenting"
             },
             {
-                "id": 2,
-                "srcImg": careerguid,
-                "name": "Career Guidance Sessions"
+                "id": 4,
+                "srcImg": frspen,
+                "name": "English, French, and Spanish Workshop"
             },
             {
                 "id": 3,
@@ -214,9 +214,9 @@ const ActivityList = [
                 "name": "Financial Literacy Workshop"
             },
             {
-                "id": 4,
-                "srcImg": frspen,
-                "name": "English, French, and Spanish Workshop"
+                "id": 2,
+                "srcImg": careerguid,
+                "name": "Career Guidance Sessions"
             },
         ]
     },
@@ -225,11 +225,6 @@ const ActivityList = [
         "actName": "Other Activities",
         "description": "We also organize several other co-curricular activities to ensure overall development of kids. Some of which include: -",
         "subAct": [
-            {
-                "id": 1,
-                "srcImg": popcornmak,
-                "name": "Popcorn Making - Best out of waste"
-            },
             {
                 "id": 2,
                 "srcImg": artcraft,
@@ -244,6 +239,11 @@ const ActivityList = [
                 "id": 4,
                 "srcImg": movie,
                 "name": "Movie Time"
+            },
+            {
+                "id": 1,
+                "srcImg": popcornmak,
+                "name": "Popcorn Making - Best out of waste"
             },
         ]
     },
