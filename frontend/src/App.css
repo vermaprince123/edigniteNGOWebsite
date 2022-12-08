@@ -4,6 +4,8 @@
 
 .nav-lnk{
     color: white !important;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 17px;
 }
 
 .nav-lnk:hover{
