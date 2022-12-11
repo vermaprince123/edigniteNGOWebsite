@@ -22,19 +22,18 @@ function Footer() {
                             </div>
                             </div> */}
                             <Row className="mt-2">
-                                <Col md={3} className="text-center">
+                                <Col md={3} className="ft-img-cnt">
                                     <div className="footer-image">
                                         <img src={logo} className="ft-img" />
                                     </div>
                                 </Col>
                                 <Col md={9}>
-                                    <div className="footer-text ft-img-text me-5">
-                                        Edignite Educational and Charitable Trust
+                                    <div className="footer-text ft-img-text me-4">
+                                        <span className="ft-img-text-ttl">Edignite NGO - Hope For Others</span>
+                                        <div className="ft-img-text-add">B-66, Aashish Row House, Variyav Road, Surat - 395005</div>
                                         <br />
-                                        B-66, Aashish Row House, Variyav Road, Surat - 395005
                                         <br />
-                                        <br />
-                                        The NGO Darpan, NITI Aayog registered Trust
+                                        <span className="ft-img-text-desc">The NGO Darpan, NITI Aayog registered Trust</span>
                                     </div>
                                 </Col>
                             </Row>
