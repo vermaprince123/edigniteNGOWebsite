@@ -52,15 +52,15 @@ function App() {
       </Navbar>
 
       <div className="app-sm bg-warning">
-        <a href="mailto:edignitengo@gmail.com?subject=Message to Edignite Team" target="_blank" className="cnt-sm-lnk"><Envelope size={15} /></a><br />
-        <a href="https://www.instagram.com/ed_ignite/" target="_blank"><Instagram size={15} /></a><br />
-        <a href="https://www.facebook.com/socialindiagroup.in" target="_blank"><Facebook size={15} /></a><br />
-        <a href="https://www.linkedin.com/company/edignite-ngo/" target="_blank"><Linkedin size={15} /></a><br />
-        <a href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg" target="_blank"><Youtube size={15} /></a>
+        <a title="Mail Us" href="mailto:edignitengo@gmail.com?subject=Message to Edignite Team" target="_blank" className="cnt-sm-lnk"><Envelope size={15} /></a><br />
+        <a title="Go to our Instagram Page" href="https://www.instagram.com/ed_ignite/" target="_blank"><Instagram size={15} /></a><br />
+        <a title="Go to our LinkedIn Page" href="https://www.linkedin.com/company/edignite-ngo/" target="_blank"><Linkedin size={15} /></a><br />
+        <a title="Go to out Facebook Page" href="https://www.facebook.com/socialindiagroup.in" target="_blank"><Facebook size={15} /></a><br />
+        <a title="Go to our YouTube channel" href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg" target="_blank"><Youtube size={15} /></a>
       </div>
 
       <Routes>
-        <Route exact path="/:" element={<Homepage />} errorElement={<Homepage />}/>
+        <Route exact path="/" element={<Homepage />} errorElement={<Homepage />}/>
         <Route exact path="/" element={<Homepage />} />
         <Route exact path="/places" element={<Places />} />
         <Route exact path="/team" element={<Team />} />

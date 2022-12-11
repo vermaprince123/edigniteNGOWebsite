@@ -5,6 +5,11 @@
     color: white;
 }
 
+.ft-img-text{
+    text-align: justify;
+    font-size: large;
+}
+
 .ft-col ul{
     list-style-type: none;
     padding: 0;
@@ -21,7 +26,7 @@
 }
 
 .ft-img{
-    width: 10%;
+    width: 72%;
     height: auto;
 
 }
