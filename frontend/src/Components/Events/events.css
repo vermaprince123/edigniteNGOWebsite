@@ -1,0 +1,32 @@
+.ev-csl{
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+}
+
+.ev-csl-itm{
+    width: 50%;
+    height: max-content;
+    border: solid #aaaaaa;
+    border-radius: 25px;
+    box-shadow: 0.5px 0.5px  #aaaaaa;
+    text-align: center;
+}
+
+.ev-csl-itm-ttl{
+    font-family: 'Great Vibes', cursive;
+    color: blueviolet;
+}
+
+.ev-csl-itm-vid{
+    border-right: solid rgb(152, 141, 153) 1.5px;
+    padding-left: 30px !important;
+}
+
+.ev-csl-itm-desc{
+    width: max-content;
+    text-align: justify;
+    font-size: 22px;
+    padding-left: 1.5rem !important;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
