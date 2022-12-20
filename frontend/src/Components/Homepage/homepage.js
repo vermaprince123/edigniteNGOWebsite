@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Carousel, Container, Row, Col, Card } from 'react-bootstrap';
-import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel } from 'react-bootstrap-icons'
+import { PencilSquare, Building, PersonHearts, Box2Heart, CardChecklist, FileEarmarkEasel, ArrowRightCircleFill, ArrowLeftCircleFill } from 'react-bootstrap-icons'
 // import { Link } from "react-router-dom";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './homepage.css'
@@ -141,7 +141,7 @@ function Homepage() {
             </Container>
             <Container className="my-5 pt-2 hp-rew">
                 <h2 className="hp-rew-title text-center">From our Well Wishers....</h2>
-                <Carousel interval={7000} className="my-2 hp-rew-2">
+                <Carousel interval={7000} className="my-2 hp-rew-2" touch={true} indicators={false} prevIcon={<ArrowLeftCircleFill className="ev-csl-arrow" size={25}/>} nextIcon={<ArrowRightCircleFill className="ev-csl-arrow" size={25}/>}>
 
                     {rewLst[0].map(
                         (rewItem) => {

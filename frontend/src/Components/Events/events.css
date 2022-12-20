@@ -4,6 +4,16 @@
     padding: 10px;
 }
 
+.ev-csl-arrow{
+    color: purple;
+    
+}
+
+.ev-csl-r-arrow{
+    color: purple;
+     right: -74px;
+}
+
 .ev-csl-itm{
     width: 50%;
     height: max-content;
@@ -29,4 +39,13 @@
     font-size: 22px;
     padding-left: 1.5rem !important;
     font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.carousel-control-next{
+    width: max-content !important;
+    right: -2px !important;
+}
+.carousel-control-prev{
+    width: max-content !important;
+    left: -2px !important;
 }
