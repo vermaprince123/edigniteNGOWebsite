@@ -27,7 +27,7 @@ import { Instagram, Facebook, Linkedin, Youtube, Envelope } from 'react-bootstra
 function App() {
   return (
     <>
-      <Navbar bg="warning" variant="dark" expand="lg">
+      <Navbar bg="warning" variant="dark" expand="lg" className="app-nav">
         <Container fluid>
           <Link className="ed_removeAnchorTagLine navbar-brand" to='/'>
             <img
@@ -52,7 +52,7 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+      {/* linear-gradient(60deg, #ad00ff,#e40e0e) */}
       <div className="app-sm bg-warning">
         <a title="Mail Us" href="mailto:edignitengo@gmail.com?subject=Message to Edignite Team" target="_blank" className="cnt-sm-lnk"><Envelope size={15} /></a><br />
         <a title="Go to our Instagram Page" href="https://www.instagram.com/ed_ignite/" target="_blank"><Instagram size={15} /></a><br />

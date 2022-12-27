@@ -1,6 +1,6 @@
 .ft-footer{
     margin-top: 30px;
-    background-color: rgb(238, 158, 8);
+    background: linear-gradient(60deg, rgb(195, 88, 252),tomato);
     height: max-content;
     color: white;
 }
@@ -32,7 +32,7 @@
 }
 
 .ft-col ul li a:hover{
-    color:rgb(144, 58, 253);
+    color:rgb(40, 18, 68);
 }
 
 .ft-img{

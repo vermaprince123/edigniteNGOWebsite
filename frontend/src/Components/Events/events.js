@@ -29,9 +29,7 @@ function Events() {
                                         <h1 className="ev-csl-itm-ttl mt-1">{e.title}</h1>
                                         <Row>
                                             <Col md={4} className="ev-csl-itm-vid my-2">
-                                                <iframe width="243" height="432"
-                                                    src={e.link}>
-                                                </iframe>
+                                                <iframe width="243" height="432" src={e.link} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </Col>
                                             <Col md={8} className="ev-csl-itm-desc pe-5">
                                                 {e.description}

@@ -22,7 +22,6 @@ function Contact() {
                         <a title="Go to our LinkedIn Page" href="https://www.linkedin.com/company/edignite-ngo/" target="_blank" className="cnt-sm-lnk"><Linkedin size={15} /> - Edignite NGO</a> <br />
                         <a title="Go to out Facebook Page" href="https://www.facebook.com/socialindiagroup.in" target="_blank" className="cnt-sm-lnk"><Facebook size={15} /> - Edignite NGO</a>  <br />
                         <a title="Go to our YouTube channel" href="https://www.youtube.com/channel/UCJWu4OJBlFmFPF4sQpD6JIg" target="_blank" className="cnt-sm-lnk"><Youtube size={15} /> - Edignite NGO</a> <br />
-
                     </div>
                 </div>
             </Container>
