@@ -1,0 +1,10 @@
+.tv-text{
+    font-size: 17px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: rgb(80, 43, 226);
+}
+
+.tv-text a{
+    text-decoration: none;
+    color: rgb(80, 43, 226);
+}

@@ -11,7 +11,8 @@ import Footer from './Components/Footer/footer.js';
 import Places from './Components/Places/places.js';
 import Team from './Components/Team/team.js';
 import Contact from './Components/Contact/contact.js';
-import Events from './Components/Events/events.js';
+import Events from './Components/Events/events.js'; 
+import TechnicalVideos from './Components/TechnicalVideos/technicalVideos';
 import './App.css';
 import Activities from './Components/Activities/activities.js';
 import { Instagram, Facebook, Linkedin, Youtube, Envelope } from 'react-bootstrap-icons';
@@ -47,6 +48,7 @@ function App() {
               <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/activities'>Our Activities</Link>
               <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/places'>Places We Go</Link>
               <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/events'>Our Major Events</Link>
+              <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/technicalVideos'>Our Technical Videos</Link>
               <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/contact'>Contact Us</Link>
             </Nav>
           </Navbar.Collapse>
@@ -70,6 +72,7 @@ function App() {
         <Route exact path="/home" element={<Homepage />} />
         <Route exact path="/activities" element={<Activities />} />
         <Route exact path="/events" element={<Events />} />
+        <Route exact path="/technicalVideos" element={<TechnicalVideos />} />
 
       </Routes>
 

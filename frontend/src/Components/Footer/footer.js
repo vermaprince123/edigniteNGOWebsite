@@ -12,15 +12,6 @@ function Footer() {
                 <footer>
                     <Row>
                         <Col md={6} className="ft-nameimg">
-                            {/* <div className="ft-img-text">
-                            <br/>
-                            <div className="footer-image">
-                            <img src={logo} className="ft-img"/>
-                            </div>
-                            <div className="footer-text">
-                            Edignite Educational and Charitable Trust 
-                            </div>
-                            </div> */}
                             <Row className="mt-2">
                                 <Col md={3} className="ft-img-cnt">
                                     <div className="footer-image">
