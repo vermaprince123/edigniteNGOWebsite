@@ -33,3 +33,11 @@
 .app-sm a:hover{
     color:rgb(35, 15, 61);
 }
+
+.carousel-control-prev{
+    width: max-content;
+}
+
+.carousel-control-next{
+    width: max-content;
+}
