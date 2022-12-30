@@ -29,11 +29,11 @@ function Team() {
                                     <span className="tm-vol-occ">{memberDetail.occupation}</span>
                                     <Row className="tm-vol-sm">
                                     <Col className="tm-vol-sm-lnk text-center" xs={4}>
-                                            <a className="tm-sm-lnk" href={memberDetail.lnkdinId} target="_blank"><Linkedin size={20} /></a>
+                                            <a className="tm-sm-lnk" href={memberDetail.lnkdinId} target="_blank" title={"Go to " + memberDetail.name + "'s LinkedIn Profile"}><Linkedin size={20} /></a>
                                         </Col>
-                                        <Col className="tm-vol-sm-lnk text-center" xs={4}><a className="tm-sm-lnk" href={memberDetail.instaId} target="_blank"><Instagram size={20} /></a></Col>
+                                        <Col className="tm-vol-sm-lnk text-center" xs={4}><a className="tm-sm-lnk" href={memberDetail.instaId} target="_blank" title={"Go to " + memberDetail.name + "'s Instagram Profile"}><Instagram size={20} /></a></Col>
                                         <Col className="tm-vol-sm-lnk text-center" xs={4}>
-                                            <a className="tm-sm-lnk" href={memberDetail.fbId} target="_blank"><Facebook size={20} /></a>
+                                            <a className="tm-sm-lnk" href={memberDetail.fbId} target="_blank" title={"Go to " + memberDetail.name + "'s Facebook Profile"}><Facebook size={20} /></a>
                                         </Col>
                                     </Row>
                                 </div>
