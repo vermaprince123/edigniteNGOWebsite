@@ -27,6 +27,16 @@
     height: max-content !important;
 }
 
+.hp-csl-arr-prev{
+    position: absolute;
+    left: 10px;
+}
+
+.hp-csl-arr-next{
+    position: absolute;
+    right: 10px;
+}
+
 .hp-rew-2{
     height: max-content;
 }

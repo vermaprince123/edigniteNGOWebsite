@@ -17,6 +17,7 @@
 }
 
 .app-sm{
+    background: linear-gradient(60deg, rgb(195, 88, 252),rgb(244, 40, 217));
     width: max-content;
     height: max-content;
     color: white;
@@ -30,5 +31,5 @@
     color: white;
 }
 .app-sm a:hover{
-    color:rgb(144, 58, 253);
+    color:rgb(35, 15, 61);
 }
