@@ -1,31 +1,23 @@
-import sgphoto from './Images/sgphoto.jfif';
+import vpphoto from './Images/vpphoto.png';
 import edigniteLogo from './Images/edigniteLogo.png';
 
 const rewList = [
     {
         'id':1,
-        'name': 'Anonymous',
-        'org': 'Anonymous',
-        'des': 'Anonymous',
-        'img': edigniteLogo,
-        'rew': "Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships."
+        'name': 'Vishal Pandya',
+        'org': '',
+        'des': 'Advocate',
+        'img': vpphoto,
+        'rew': "The volunteers and trustees at Edignite are students who are balancing their Education and Education of underprivileged kids. They source the deprived kids, make them realise the value of Education, and educate them. Apart from education, the organization also focuses on activities which lead to overall development of kids. Having witnessed the activities of Edignite volunteers, I really appreciate the efforts they put in the education of kids. I am heartly touched by their service and like the way they fulfill their duty to the society."
     },
     {
         'id':2,
-        'name': 'Anonymous',
-        'org': 'Anonymous',
-        'des': 'Anonymous',
+        'name': 'Coming Soon...',
+        'org': '',
+        'des': '',
         'img': edigniteLogo,
-        'rew': "Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships."
+        'rew': "Coming Soon..."
     },
-    {
-        'id':3,
-        'name': 'Anonymous',
-        'org': 'Anonymous',
-        'des': 'Anonymous',
-        'img': edigniteLogo,
-        'rew': "Edignite is doing a very good work. This group's work is very good. Guided and Trained many Youngters through different workshops, Training Programmes, as well as Internships."
-    }
 ]
 
 export default rewList;

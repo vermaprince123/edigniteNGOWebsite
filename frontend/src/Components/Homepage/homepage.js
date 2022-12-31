@@ -141,7 +141,7 @@ function Homepage() {
             </Container>
             <Container className="my-5 pt-2 hp-rew">
                 <h2 className="hp-rew-title text-center">From our Well Wishers....</h2>
-                <Carousel interval={7000} className="my-2 hp-rew-2" touch={true} indicators={false} prevIcon={<ArrowLeftCircleFill className="ev-csl-arrow hp-csl-arr-prev" size={25}/>} nextIcon={<ArrowRightCircleFill className="ev-csl-arrow hp-csl-arr-next" size={25}/>}>
+                <Carousel interval={null} className="my-2 hp-rew-2" touch={true} indicators={false} prevIcon={<ArrowLeftCircleFill className="ev-csl-arrow hp-csl-arr-prev" size={25}/>} nextIcon={<ArrowRightCircleFill className="ev-csl-arrow hp-csl-arr-next" size={25}/>}>
 
                     {rewLst[0].map(
                         (rewItem) => {
@@ -151,7 +151,7 @@ function Homepage() {
                                         <Row>
                                             <Col md={3} sm={12} className="hp-rew-cl-img">
                                                 <img src={rewItem.img} className="rounded-circle" align="center" alt="MKR Sir" />
-                                                <p className="text-center hp-rew-cl-pdet">{rewItem.name}, <br />{rewItem.des}, {rewItem.org}</p>
+                                                <p className="text-center hp-rew-cl-pdet">{rewItem.name}, <br />{rewItem.des} {rewItem.org}</p>
                                             </Col>
                                             <Col md={9} sm={12}>
                                                 <p className="text-left  hp-rew-cl-txt">
