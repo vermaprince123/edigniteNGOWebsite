@@ -131,7 +131,7 @@
 
 @media (max-width: 420px) {
     .hp-rew-cl-txt{
-        font-size: 10px;
+        font-size: 16px;
         margin-bottom: 1px;
     }
 
@@ -140,7 +140,7 @@
     }
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
     .hp-rew-cl-txt{
         font-size: 24px;
         margin-bottom: 2px;
@@ -158,5 +158,11 @@
     }
     .hp-csl-cptn a{
         font-size: xx-small !important;
+    }
+}
+
+@media (min-width: 991px){
+    .hp-rew-cl-txt{
+        font-size: 20px;
     }
 }

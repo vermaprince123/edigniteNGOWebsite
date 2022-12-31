@@ -21,7 +21,7 @@ const videoList = [
     },
     {
         "id": 5,
-        "title": "Advanced JavaScript",
+        "title": "History of  JavaScript",
         "src": "https://www.youtube.com/embed/G3jy_RMEAz0"
     },
     {
