@@ -43,7 +43,7 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/home'>Home</Link>
+              <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/'>Home</Link>
               <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/team'>Team Edignite</Link>
               <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/activities'>Our Activities</Link>
               <Link className="ed_removeAnchorTagLine nav-lnk nav-link" to='/places'>Places We Go</Link>

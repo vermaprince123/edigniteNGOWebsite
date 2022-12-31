@@ -20,7 +20,7 @@ function Events() {
             </h4>
             <hr />
             <Container className="ev-csl-cntnr">
-                <Carousel className="ev-csl" touch={true} indicators={false} number="none" prevIcon={<ArrowLeftCircleFill className="ev-csl-arrow ev-csl-arr-prev" size={25} />} nextIcon={<ArrowRightCircleFill className="ev-csl-arrow ev-csl-arr-next" size={25} />}>
+                <Carousel className="ev-csl" touch={true} indicators={false} interval={null} prevIcon={<ArrowLeftCircleFill className="ev-csl-arrow ev-csl-arr-prev" size={25} />} nextIcon={<ArrowRightCircleFill className="ev-csl-arrow ev-csl-arr-next" size={25} />}>
                     {events[0].map(
                         e => {
                             let desc = e.description.split('\n');
