@@ -6,6 +6,7 @@ import logo from '../../Images/ediLogo.png'
 import { ThreeDots } from 'react-bootstrap-icons'
 
 function Footer() {
+    const dt = new Date().getFullYear()
     return (
         <>
             <Container fluid className="ft-footer">
@@ -57,6 +58,7 @@ function Footer() {
                             </ul>
                         </Col>
                     </Row>
+                    <div className="ft-copyright">&copy; {dt} Copyright: Edignite Educational and Charitable Trust</div>
                 </footer>
             </Container>
         </>

@@ -41,6 +41,13 @@
 
 }
 
+.ft-copyright{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 16px;
+    padding-bottom: 10px;
+}
+
 @media (max-width: 1142px) {
     .ft-img-text-ttl{
         font-size: x-large;
