@@ -141,7 +141,7 @@ export const membersDetails = [
         "name":"Alankrita Verma",
         "srcImage":imgAlankrita,
         "alt":"Alankrita Verma",
-        "designation":"Treasurer & Applicant",
+        "designation":"Applicant",
         "occupation":"Final Year, B.Tech. Electronics Engg., NIT Surat",
         "achivements":"Open Source Contributer, Author of three books",
         "instaId": "https://www.instagram.com/alankritaverma00/",

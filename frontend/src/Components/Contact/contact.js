@@ -15,7 +15,7 @@ function Contact() {
                     <div className="cnt-dt my-5 p-3">
                         <address><h4>Edignite Educational And Charitable Trust</h4>
                             B-66 Ashish Row House, Variyav Road, Surat <br />
-                            <b>Contact Number</b>:- +91 7096277820   <br />
+                            <b>Contact Number</b>:- +91 7096277820/ 8707775636   <br />
                             <b>Email</b>:- edignitengo@gmail.com <br /></address>
                         <a title="Mail Us" href="mailto:edignitengo@gmail.com?subject=Message to Edignite Team" target="_blank" className="cnt-sm-lnk"><Envelope size={15} /> - Edignite NGO</a> <br />
                         <a title="Go to our Instagram Page" href="https://www.instagram.com/ed_ignite/" target="_blank" className="cnt-sm-lnk"><Instagram size={15} /> - ed_ignite</a> <br />
